@@ -33,7 +33,7 @@ DataCamp: I have set up a [DataCamp group](https://www.datacamp.com/groups/proba
 
 [Assignment 2: Due Friday, September 1](/courses/MATH333/assignments/assn2/)
 
-- [assignment 2 template](/courses/MATH333/assignments/assn2.Rmd)
+- [assignment 2 template]("courses/MATH333/assignments/assn2.Rmd")
 
 Assignment 3: Due Wednesday, September 6
 
