@@ -1,6 +1,7 @@
 +++
 title = "Probability and Statistics"
 image_preview = "sundew.jpg"
+tags = ["prob-stat"]
 [header]
 image = "headers/bog_laurel_wide.jpg"
 +++
