@@ -3,6 +3,7 @@ title: 'Numerical Methods: Assignment 2'
 author: ''
 date: '2017-08-26'
 slug: numerical-methods-assignment-2
+math: "TRUE"
 categories: []
 tags: []
 ---
