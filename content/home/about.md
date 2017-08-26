@@ -45,4 +45,4 @@ weight = 1
 
 My research interests are in applied mathematics and include ordinary and partial differential equations, mathematical and agent-based modeling and optimal control theory. I have a special interest in mathematical ecology with applications to population and community dynamics, epidemiology and natural resource management. I am currently investigating optimal growth strategies in *Sarracenia purpurea*, the northern pitcher plant.
 
-I am currently an assistant professor of applied mathematics at [Houghton College](http://www.houghton.edu).
+I am currently an assistant professor of applied mathematics at [Houghton College](http://www.houghton.edu). 
