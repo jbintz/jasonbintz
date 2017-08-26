@@ -1,9 +1,5 @@
 ---
 title: 'Probability and Statistics: Assignment 2'
-author: ''
-date: []
-categories: []
-tags: []
 ---
 
 ```{r setup}
