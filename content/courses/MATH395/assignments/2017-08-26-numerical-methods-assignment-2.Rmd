@@ -5,6 +5,7 @@ date: '2017-08-26'
 slug: numerical-methods-assignment-2
 categories: []
 tags: []
+draft: true
 ---
 
 ```{r setup, include=FALSE}
