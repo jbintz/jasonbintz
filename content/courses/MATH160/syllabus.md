@@ -11,7 +11,7 @@ Office: Paine 209A
 E-Mail: jason.bintz@houghton.edu  
 <https://jasonbintz.rbind.io> 
                                                       
-## {#top}
+## Contents {#top}
 
 [Course Description](#description)  
 [Textbook](#text)  

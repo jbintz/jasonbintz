@@ -1,21 +1,21 @@
----
-title: 'Syllabus: Probability and Statistics'
-highlight: 'FALSE'
-weight: 222003
----
++++
+title = 'Syllabus: Numerical Methods'
+highlight = false
+weight = 222003
++++
 
 ## Professor {#top}
 
 Jason Bintz  
 Office: Paine 209A  
 E-Mail: jason.bintz@houghton.edu  
-<https://jasonbintz.rbind.io/>
+<https://jasonbintz.rbind.io> 
                                                       
-## Index {#top}
+## Contents {#top}
 
 [Course Description](#description)  
 [Textbook](#text)  
-[Software](#soft)  
+[Calculator](#calc)  
 [Exams](#exams)  
 [Homework](#homework)  
 [Homework Guidelines](#guidelines)  
@@ -23,7 +23,7 @@ E-Mail: jason.bintz@houghton.edu
 [Academic Honesty](#honesty)  
 [Accomodations](#accomodations)  
 [Resources](#resources)  
-[Time Commitment](#time)  
+[Time Commitment](#time)    
 
 -------------------------------------------------------------------
 
@@ -37,17 +37,15 @@ E-Mail: jason.bintz@houghton.edu
 
 ## Textbooks {#text}
 
-*Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan*, 2<sup>nd</sup> ed., John K. Kruschke
 
-*Bayesian Models: A Statistical Primer for Ecologists*, N. Thompson Hobbs and Mevin B. Hooten
 
 [**Return to Index**](#top)
 
 -------------------------------------------------------------------
 
-## Software {#soft}
+## Calculator {#calc}
 
-We will use R and RStudio...a lot.
+
 
 [**Return to Index**](#top)
 
@@ -55,7 +53,7 @@ We will use R and RStudio...a lot.
 
 ## Exams {#exams}
 
-There will be three in-class exams during the semester. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+There will be ____ in-class exams during the semester. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
 
 [**Return to Index**](#top)
 
@@ -63,11 +61,7 @@ There will be three in-class exams during the semester. Make up exams will only 
 
 ## Homework {#homework}
 
-You will have two types of homework assignments:  
 
-**Problem Sets**: There will be approximately 10 problem sets assigned throughout the semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
-
-**WebAssign**: After (almost) every class, you will have a WebAssign assignment that must be completed before the next class period.
 
 [**Return to Index**](#top)
 
@@ -75,7 +69,7 @@ You will have two types of homework assignments:
 
 ## Homework Guidelines {#guidelines}
 
-Homework must be neat–if your homework is illegible, it will not be graded! You must submit a physical copy of your homework–emailed homework will not be accepted! Homework is due at the beginning of class. Late homework will not be accepted. Solutions to homework questions must be clear and your process must be explained. Complete sentences should be used where appropriate.
+
 
 [**Return to Index**](#top)
 
@@ -125,4 +119,3 @@ Some possible places to find assistance:
 ## Time Commitment {#time}
 
 In accordance with the guidelines of 2–3 hours of work for each credit hour for a course, the well-prepared student should spend approximately 8–12 hours of work per week beyond the time spent in class. If you find that you are spending significantly more time than this, please let me know so that I can help you be more efficient or adjust the workload. If you are spending less time than this, you may not be investing enough time to learn well.
-
