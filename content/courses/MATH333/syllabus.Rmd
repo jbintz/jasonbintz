@@ -9,7 +9,7 @@ weight: 222003
 Jason Bintz  
 Office: Paine 209A  
 E-Mail: jason.bintz@houghton.edu  
-<!--- <https://drewtyre.rbind.io> --->  
+<https://jasonbintz.rbind.io>
                                                       
 ## Index {#top}
 
