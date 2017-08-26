@@ -1,5 +1,5 @@
 +++
-title = 'Syllabus: Probability and Statistics'
+title = "Syllabus: Probability and Statistics"
 highlight = false
 weight = 222003
 +++

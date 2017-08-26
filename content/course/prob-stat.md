@@ -1,8 +1,8 @@
 +++
-title = 'Probability and Statistics'
-image_preview = 'sundew.jpg'
+title = "Probability and Statistics"
+image_preview = "sundew.jpg"
 [header]
-image = 'headers/bog_laurel_wide.jpg'
+image = "headers/bog_laurel_wide.jpg"
 +++
 
 ## Index
