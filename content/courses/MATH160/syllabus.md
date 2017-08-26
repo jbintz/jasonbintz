@@ -1,8 +1,8 @@
----
-title: 'Syllabus: Calculus for the Life Sciences'
-highlight: 'FALSE'
-weight: 222003
----
++++
+title = 'Syllabus: Calculus for the Life Sciences'
+highlight = 'FALSE'
+weight = 222003
++++
 
 ## Professor
 
