@@ -2,22 +2,5 @@
 title: 'Probability and Statistics: Assignment 2'
 author: ''
 date: '2017-08-26'
-links: ["assignments/assn2.Rmd"]
 ---
 
-```{r setup}
-library(tidyverse)
-```
-
-```{r}
-mpg
-```
-
-
-## Your Turn 1
-
-Run the code on the slide to make a graph. Pay strict attention to spelling, capitalization, and parentheses!
-
-```{r}
-
-```
