@@ -2,6 +2,7 @@
 title: 'Probability and Statistics: Assignment 2'
 author: ''
 date: '2017-08-26'
+links: ["assignments/assn2.Rmd"]
 ---
 
 ```{r setup}
