@@ -4,6 +4,7 @@ image_preview = "mosquito.jpg"
 tags = ["num-meth"]
 [header]
 image = "headers/bog_laurel_wide.jpg"
+draft = true
 +++
 
 ## Index
@@ -32,5 +33,7 @@ DataCamp: I have set up a [DataCamp group](https://www.datacamp.com/groups/numer
 [Assignment 1: Due Thursday, August 31](/courses/MATH395/assignments/numerical-methods-assignment-1/)
 
 [Assignment 2: Due Tuesday, September 1](/courses/MATH395/assignments/numerical-methods-assignment-2/)
+
+- [Rmd](https://raw.githubusercontent.com/jbintz/jasonbintz/master/content/courses/MATH395/assignments/2017-08-26-numerical-methods-assignment-2.Rmd)
 
 ---------------------------------------------------------------------
