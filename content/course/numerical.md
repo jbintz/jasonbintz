@@ -34,6 +34,4 @@ DataCamp: I have set up a [DataCamp group](https://www.datacamp.com/groups/numer
 
 [Assignment 2: Due Tuesday, September 1](/courses/MATH395/assignments/numerical-methods-assignment-2/)
 
-- [Rmd](https://raw.githubusercontent.com/jbintz/jasonbintz/master/content/courses/MATH395/assignments/2017-08-26-numerical-methods-assignment-2.Rmd)
-
 ---------------------------------------------------------------------
