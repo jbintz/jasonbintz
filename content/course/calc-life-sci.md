@@ -21,4 +21,8 @@ image = "headers/bog_laurel_wide.jpg"
 
 ## Assignments {#assn}
 
+**WebAssign:** WebAssign assignments will not be posted here.
+
+**Problem Set 1 (Due Monday September 4):** 1.1.5, 1.2.5, 1.2.6
+
 ---------------------------------------------------------------------
