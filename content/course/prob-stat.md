@@ -31,6 +31,6 @@ DataCamp: I have set up a [DataCamp group](https://www.datacamp.com/groups/proba
 
 [Assignment 1: Due Wednesday, August 30](/courses/MATH333/assignments/assn1/)
 
-[Assignment 2: Due Friday, September 1](/courses/MATH333/assignments/assn2/)
+[Assignment 2: Due Friday, September 1](/courses/MATH333/assignments/probability-and-statistics-assignment-2/)
 
 ---------------------------------------------------------------------

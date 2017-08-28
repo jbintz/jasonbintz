@@ -1,0 +1,16 @@
+---
+title: 'Probability and Statistics: Assignment 2'
+author: ''
+date: '2017-08-28'
+slug: probability-and-statistics-assignment-2
+categories: []
+tags: []
+draft: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## this will be assignment for chapter 2
