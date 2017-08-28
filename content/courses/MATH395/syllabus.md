@@ -15,10 +15,10 @@ E-Mail: jason.bintz@houghton.edu
 
 [Course Description](#description)  
 [Textbook](#text)  
-[Calculator](#calc)  
+[Software](#soft)  
 [Exams](#exams)  
 [Homework](#homework)  
-[Homework Guidelines](#guidelines)  
+[Participation](#participation)  
 [Grading](#grading)  
 [Academic Honesty](#honesty)  
 [Accomodations](#accomodations)  
@@ -43,9 +43,9 @@ E-Mail: jason.bintz@houghton.edu
 
 -------------------------------------------------------------------
 
-## Calculator {#calc}
+## Software {#soft}
 
-
+We will use R and RStudio...a lot.
 
 [**Return to Index**](#top)
 
@@ -61,15 +61,19 @@ There will be ____ in-class exams during the semester. Make up exams will only b
 
 ## Homework {#homework}
 
+**Problem Sets**: There will be approximately 5 problem sets assigned throughout the half-semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
 
+**DataCamp**: There will be a couple of DataCamp courses assigned near the beginning of the semester.
+
+**In-class Exercises**: I anticipate many classes consisting of workshop-like labs. These will count towards the homework grade. Whatever is not completed during class, you will have to complete outside of class.
 
 [**Return to Index**](#top)
 
 ------------------------------------------------------------------------
 
-## Homework Guidelines {#guidelines}
+## Participation {#participation}
 
-
+You are expected to be present and actively engaged for each class meeting. 
 
 [**Return to Index**](#top)
 
@@ -77,7 +81,7 @@ There will be ____ in-class exams during the semester. Make up exams will only b
 
 ## Grading {#grading}
 
-Problem sets will be worth around 30% of your grade, WebAssign assignments 20%, exams 30%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
+I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
 
 | | | | | | | | |
 |:------|:------|:------|:------|:------|:------|:------|:------|
