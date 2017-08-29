@@ -1,0 +1,14 @@
+---
+title: 'Probability and Statistics: Assignment 3'
+author: ''
+date: '2017-08-28'
+slug: probability-and-statistics-assignment-3
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  Complete the DataCamp course, *Foundations of Probability in R*.

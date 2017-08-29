@@ -5,12 +5,12 @@ date: '2017-08-28'
 slug: probability-and-statistics-assignment-2
 categories: []
 tags: []
-draft: TRUE
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+1.  Read Chapter 2 and do exercises 2.1 and 2.2. 
 
-## this will be assignment for chapter 2
+    (You should also begin the DataCamp course, *Foundations of Probability in R*, but this isn't due until next week.)

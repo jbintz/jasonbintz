@@ -1,0 +1,15 @@
+---
+title: 'Numerical Methods: Assignment 3'
+author: ''
+date: '2017-08-26'
+slug: numerical-methods-assignment-3
+categories: []
+tags: []
+draft: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  Complete sections 1 (quick refresher), 2 (when and how you should write a function) and 3 (functional programming) of the "Writing Functions in R" course at DataCamp. If you've already done this in the past, then your account at DataCamp should reflect this. If for some reason it doesn't, then you can show me that you've done it.
