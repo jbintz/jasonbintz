@@ -12,7 +12,7 @@ draft: TRUE
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1.  Let $x=3248$. Use the functions `floor()` and/or `%%` to write an `R` expression that returns the second decimal place in $x$. Make sure your code also works for $x = -3248$.
+1.  Let $x=3248$. Use the functions `floor()` and/or `%%` to write an expression that returns the second decimal place in $x$. Make sure your code also works for $x = -3248$.
 
     ```{r}
     # notice the spacing of this chunk...what is its purpose? 
@@ -21,13 +21,18 @@ knitr::opts_chunk$set(echo = TRUE)
     
     ```
 
-2.  **(2.10.2.d)** Write an `R` expression that returns the following matrix.  
+2.  Write an expression that returns the following matrix.  
 $\left(\begin{array}{rrr}0 & 2 & 3 \\0 & 5 & 0 \\7 & 0 & 0\end{array}\right)$
 
     ```{r}
     # write question 2 code inside this chunk
     ```
 
-3.  **(2.10.4)**
+3.  Produce a vector containing all integers from 1 to 100 that are not divisible by 2, 3, or 7. You want to achieve this by appropriately subsetting the vector `1:100`.
 
-4.  
+    ```{r}
+    # write question 3 code inside this chunk
+    ```
+
+4.  Write a simple expression that returns a $10\times 10$ diagonal matrix whose nonzero entries are each equal to 3.
+
