@@ -15,15 +15,25 @@ image = "headers/bog_laurel_wide.jpg"
 
 ## Course Resources {#resources}
 
-[Syllabus](/courses/MATH333/syllabus/)
+#### Syllabus 
 
-[R, RStudio, and all that...](/resources/allthingsR/)
+Here is the [syllabus](/courses/MATH333/syllabus/).
 
-DataCamp: I have set up a [DataCamp group](https://www.datacamp.com/groups/probability-statistics) for this course. You should have received an email invitation to join. Some important details:
+#### R, RStudio, and all that...
+
+This has its own [page](/resources/allthingsR/).
+
+#### DataCamp
+
+I have set up a [DataCamp group](https://www.datacamp.com/groups/probability-statistics) for this course. You should have received an email invitation to join. Some important details:
 
 -  **Pay no attention to the due dates listed on DataCamp!** They have been a bit buggy in the past, so I made the assignment "due dates" rather arbitrary. The real due dates will be posted on the course website.
 
 -  as a member of this group you have access to **all** of DataCamp's premium content, not just the assigned material
+
+#### GitHub 
+
+You'll need to register an account with GitHub. Some good advice and instructions can be found [here](http://happygitwithr.com/github-acct.html).
     
 ---------------------------------------------------------------------
 
