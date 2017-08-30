@@ -21,10 +21,13 @@ x &lt;- 3248
 <li><p>Produce a vector containing all integers from 1 to 100 that are not divisible by 2, 3, or 7. You want to achieve this by appropriately subsetting the vector <code>1:100</code>.</p>
 <pre class="r"><code># write question 3 code inside this chunk</code></pre></li>
 <li><p>Write a simple expression that returns a <span class="math inline">\(10\times 10\)</span> diagonal matrix whose nonzero entries are each equal to 3.</p></li>
-<li><p>Exercise 3.9.1.</p></li>
-<li><p>Exercise 3.9.2.</p></li>
-<li><p>Exercise 3.9.3.</p></li>
-<li><p>Exercise 3.9.5.</p></li>
+<li><p>Exercise 3.9.1. The author mentions the <code>ifelse()</code> function. I would avoid using this function. See <a href="http://adv-r.hadley.nz/performance.html#ifelse-pmin-and-pmax">here</a>. There are much better approaches.</p></li>
+<li><p>Exercise 3.9.2. Use <span class="math inline">\(x=0.8\)</span> and <span class="math inline">\(n=10\)</span>.</p></li>
+<li><p>Same as the previous exercise except don’t use a loop. That is, use a vectorized expression.</p></li>
+<li><p>Exercise 3.9.3. Does your code for the formula handle the <span class="math inline">\(x=1\)</span> case?</p></li>
+<li><p>Exercise 3.9.5. A test vector is provided. Why is it a matrix? Also, a test angle, <span class="math inline">\(\theta\)</span>, is given. Why are these good choices for a test vector and angle?</p>
+<pre class="r"><code>x &lt;- matrix(c(1, 0), 2, 1)
+theta &lt;- pi / 2</code></pre></li>
 <li><p>Exercise 3.9.6.</p></li>
 <li><p>Exercise 3.9.7.</p></li>
 <li><p>Exercise 3.9.10.</p></li>

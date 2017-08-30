@@ -37,13 +37,20 @@ $\left(\begin{array}{rrr}0 & 2 & 3 \\0 & 5 & 0 \\7 & 0 & 0\end{array}\right)$
 
 1.  Write a simple expression that returns a $10\times 10$ diagonal matrix whose nonzero entries are each equal to 3.
 
-1.  Exercise 3.9.1.
+1.  Exercise 3.9.1. The author mentions the `ifelse()` function. I would avoid using this function. See [here](http://adv-r.hadley.nz/performance.html#ifelse-pmin-and-pmax). There are much better approaches.
 
-1.  Exercise 3.9.2.
+1.  Exercise 3.9.2. Use $x=0.8$ and $n=10$.
 
-1.  Exercise 3.9.3.
+1.  Same as the previous exercise except don't use a loop. That is, use a vectorized expression.
 
-1.  Exercise 3.9.5.
+1.  Exercise 3.9.3. Does your code for the formula handle the $x=1$ case?
+
+1.  Exercise 3.9.5. A test vector is provided. Why is it a matrix? Also, a test angle, $\theta$, is given. Why are these good choices for a test vector and angle?
+
+    ```{r}
+    x <- matrix(c(1, 0), 2, 1)
+    theta <- pi / 2
+    ```
 
 1.  Exercise 3.9.6.
 
