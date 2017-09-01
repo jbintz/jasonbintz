@@ -16,7 +16,6 @@ E-Mail: jason.bintz@houghton.edu
 [Course Description](#description)  
 [Textbook](#text)  
 [Software](#soft)  
-[Exams](#exams)  
 [Homework](#homework)  
 [Participation](#participation)  
 [Grading](#grading)  
@@ -29,7 +28,7 @@ E-Mail: jason.bintz@houghton.edu
 
 ## Course Description {#description}
 
-
+Students will learn and implement numerical methods for root-finding, integration and optimization. In order to do this, students will necessarily gain essential scientific computing skills including basic control structures, input and output, and writing functions.
 
 [**Return to Index**](#top)
 
@@ -37,7 +36,7 @@ E-Mail: jason.bintz@houghton.edu
 
 ## Textbooks {#text}
 
-
+*Introduction to Scientific Programming and Simulation Using R*, 2<sup>nd</sup> ed., Owen Jones, Robert Maillardet, and Andrew Robinson.
 
 [**Return to Index**](#top)
 
@@ -51,17 +50,9 @@ We will use R and RStudio...a lot.
 
 ------------------------------------------------------------------------
 
-## Exams {#exams}
-
-There will be ____ in-class exams during the semester. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
-
-[**Return to Index**](#top)
-
-------------------------------------------------------------------------
-
 ## Homework {#homework}
 
-**Problem Sets**: There will be approximately 5 problem sets assigned throughout the half-semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
+**Problem Sets**: There will be approximately 7 problem sets assigned throughout the half-semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
 
 **DataCamp**: There will be a couple of DataCamp courses assigned near the beginning of the semester.
 
@@ -81,7 +72,7 @@ You are expected to be present and actively engaged for each class meeting.
 
 ## Grading {#grading}
 
-I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
+Homework will be worth around 80% of your grade and participation 20%.I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
 
 | | | | | | | | |
 |:------|:------|:------|:------|:------|:------|:------|:------|
