@@ -9,7 +9,7 @@ image = "headers/bog_laurel_wide.jpg"
 ## Index
 
 [Course Resources](#resources)  
-[Assignments](#assn)
+[Assignments](#assn)  
 [Activities](#activities)
 
 ---------------------------------------------------------------------
