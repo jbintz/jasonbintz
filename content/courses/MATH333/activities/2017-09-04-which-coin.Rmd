@@ -1,0 +1,77 @@
+---
+title: Which Coin?
+author: ''
+date: '2017-09-04'
+slug: which-coin
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+Create three coins, one fair and two biased: 
+
+```{r}
+theta_coin1 <- 0.4
+theta_coin2 <- 0.5
+theta_coin3 <- 0.6
+
+coin_df <- tibble(
+  model = factor(c("coin1", "coin2", "coin3")),
+  prior = rep(1/3, 3)
+)
+```
+
+Randomly select one of them but keep its identity secret:
+
+```{r}
+theta <- sample(c(theta_coin1, theta_coin2, theta_coin3), 1)
+```
+
+Flip it 5 times and report the number of heads: 
+
+```{r}
+flips <- sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta, theta))
+heads <- sum(flips)
+heads
+```
+
+Use this information to calculate likelihoods:
+
+```{r}
+# coin1:
+replications <- replicate(
+  50000, 
+  sum(sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta_coin1, theta_coin1)))
+)
+likelihood_coin1 <- mean(replications == heads)
+
+# coin2:
+replications <- replicate(
+  50000, 
+  sum(sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta_coin2, theta_coin2)))
+)
+likelihood_coin2 <- mean(replications == heads)
+
+# coin3:
+replications <- replicate(
+  50000, 
+  sum(sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta_coin3, theta_coin3)))
+)
+likelihood_coin3 <- mean(replications == heads)
+
+coin_df$likelihood <- c(likelihood_coin1, likelihood_coin2, likelihood_coin3)
+```
+
+Update your belief about which coin is being flipped:
+
+```{r}
+coin_df$product <- coin_df$prior * coin_df$likelihood
+coin_df$posterior <- coin_df$product / sum(coin_df$product)
+coin_df
+```
+
+Repeat.

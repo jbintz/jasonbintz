@@ -1,0 +1,61 @@
+---
+title: Which Coin?
+author: ''
+date: '2017-09-04'
+slug: which-coin
+categories: []
+tags: []
+---
+
+
+
+<p>Create three coins, one fair and two biased:</p>
+<pre class="r"><code>theta_coin1 &lt;- 0.4
+theta_coin2 &lt;- 0.5
+theta_coin3 &lt;- 0.6
+
+coin_df &lt;- tibble(
+  model = factor(c(&quot;coin1&quot;, &quot;coin2&quot;, &quot;coin3&quot;)),
+  prior = rep(1/3, 3)
+)</code></pre>
+<p>Randomly select one of them but keep its identity secret:</p>
+<pre class="r"><code>theta &lt;- sample(c(theta_coin1, theta_coin2, theta_coin3), 1)</code></pre>
+<p>Flip it 5 times and report the number of heads:</p>
+<pre class="r"><code>flips &lt;- sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta, theta))
+heads &lt;- sum(flips)
+heads</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>Use this information to calculate likelihoods:</p>
+<pre class="r"><code># coin1:
+replications &lt;- replicate(
+  50000, 
+  sum(sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta_coin1, theta_coin1)))
+)
+likelihood_coin1 &lt;- mean(replications == heads)
+
+# coin2:
+replications &lt;- replicate(
+  50000, 
+  sum(sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta_coin2, theta_coin2)))
+)
+likelihood_coin2 &lt;- mean(replications == heads)
+
+# coin3:
+replications &lt;- replicate(
+  50000, 
+  sum(sample(c(0, 1), 5, replace = TRUE, prob = c(1 - theta_coin3, theta_coin3)))
+)
+likelihood_coin3 &lt;- mean(replications == heads)
+
+coin_df$likelihood &lt;- c(likelihood_coin1, likelihood_coin2, likelihood_coin3)</code></pre>
+<p>Update your belief about which coin is being flipped:</p>
+<pre class="r"><code>coin_df$product &lt;- coin_df$prior * coin_df$likelihood
+coin_df$posterior &lt;- coin_df$product / sum(coin_df$product)
+coin_df</code></pre>
+<pre><code>## # A tibble: 3 x 5
+##    model     prior likelihood    product posterior
+##   &lt;fctr&gt;     &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;
+## 1  coin1 0.3333333    0.23416 0.07805333 0.2624230
+## 2  coin2 0.3333333    0.31232 0.10410667 0.3500168
+## 3  coin3 0.3333333    0.34582 0.11527333 0.3875602</code></pre>
+<p>Repeat.</p>

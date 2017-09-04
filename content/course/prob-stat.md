@@ -10,6 +10,7 @@ image = "headers/bog_laurel_wide.jpg"
 
 [Course Resources](#resources)  
 [Assignments](#assn)
+[Activities](#activities)
 
 ---------------------------------------------------------------------
 
@@ -46,3 +47,7 @@ You'll need to register an account with GitHub. Some good advice and instruction
 [Assignment 3: Due Wednesday, September 6](/courses/MATH333/assignments/probability-and-statistics-assignment-3/)
 
 ---------------------------------------------------------------------
+
+## Class Activities {#activities}
+
+[Which coin?](/courses/MATH333/activities/which-coin/)
