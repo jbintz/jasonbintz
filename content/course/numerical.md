@@ -48,7 +48,7 @@ You'll need to register an account with GitHub. Some good advice and instruction
 
 [Assignment 3: Due Thursday, September 7](/courses/MATH395/assignments/numerical-methods-assignment-3/)
 
-- The raw .Rmd file can be found here.
+- The raw .Rmd file can be found [here](https://gist.githubusercontent.com/jbintz/8db782db8a2e4e21b409d7e347b682dd/raw/c4bcc661105c6cc0390e518dcbe9325a48a60632/assignment3.Rmd).
 - You will begin working on these together in class on Tuesday, September 1.
 
 ---------------------------------------------------------------------
