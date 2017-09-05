@@ -17,7 +17,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.  Exercise 5.7.2
 
-1.  Exercise 5.7.3
+1.  Exercise 5.7.3. You can omit part (d) but you should read the rationale.
+
+    a.  Simulate one round of the game described in the problem. This shouldn't be a function.
+    
+    a.  Now a function:
+    
+    a.  To be clear, this function will provide an estimate of the probability of winning (getting at least one six in n rolls) by simulating the game N times and calculating the proportion of wins. The output should be a vector containing the estimate, the exact probability and the difference between them.
 
 1.  Exercise 5.7.5
 
