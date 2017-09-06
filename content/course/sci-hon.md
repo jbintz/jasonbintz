@@ -5,7 +5,6 @@ image_preview = "pitcher-fruit.jpg"
 # Example: `tags = ["machine-learning", "deep-learning"]`
 [header] 
 image = "fruit-wide.jpg"
-#  caption = ':smile:'
 +++
 
 ## Index

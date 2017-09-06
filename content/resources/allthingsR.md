@@ -2,10 +2,6 @@
 title = "R, RStudio and all that..."
 +++
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ### Setup
 
 The very first thing you should do is install R and RStudio on your computer. To do this, work through this brief [setup tutorial](https://jjallaire.shinyapps.io/learnr-tutorial-00-setup/).
