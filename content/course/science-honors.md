@@ -3,6 +3,7 @@ title = "Science Honors"
 image_preview = "pitcher-fruit.jpg"
 # tags can be used for filtering courses
 # Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["sci-hon"]
 [header] 
 image = "fruit-wide.jpg"
 +++
@@ -16,7 +17,7 @@ image = "fruit-wide.jpg"
 
 ## Course Resources {#resources}
 
--  [R, RStudio, and all that...](/resources/allthingsR/)
+-  [R, RStudio, and all that...](/resources/Rstuff/)
 -  DataCamp: I have set up a [DataCamp group](https://www.datacamp.com/groups/science-honors) for Science Honors. You should have received an email invitation to join. Some important details:
     -  **Pay no attention to the due dates listed on DataCamp!** They have been a bit buggy in the past, so I made the assignment "due dates" rather arbitrary. The real due dates will be posted on the course website.
     -  as a member of this group you have access to **all** of DataCamp's premium content, not just the assigned material

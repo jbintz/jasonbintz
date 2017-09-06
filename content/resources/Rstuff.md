@@ -14,4 +14,4 @@ DataCamp's [Introduction to R](https://www.datacamp.com/courses/free-introductio
 
 ### R for Data Science
 
-Garrett Grolemund and Hadley Wickham's excellent book, [R for Data Science](http://r4ds.had.co.nz), is a great resource for "mastering" the `tidyverse`.
+Garrett Grolemund and Hadley Wickham's excellent book, [R for Data Science](http://r4ds.had.co.nz), is a great resource for "mastering" the tidyverse.
