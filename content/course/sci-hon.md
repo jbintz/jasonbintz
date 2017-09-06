@@ -1,13 +1,12 @@
----
-title: 'Science Honors'
-image_preview: 'pitcher-fruit.jpg'
++++
+title = "Science Honors"
+image_preview = "pitcher-fruit.jpg"
 # tags can be used for filtering courses
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags: ["sci-hon"]
-header:
-  image: 'fruit-wide.jpg'
-#  caption: ':smile:'
----
+[header] 
+image = "fruit-wide.jpg"
+#  caption = ':smile:'
++++
 
 ## Index
 

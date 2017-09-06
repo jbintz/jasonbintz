@@ -1,6 +1,6 @@
----
-title: "R, RStudio and all that..."
----
++++
+title = "R, RStudio and all that..."
++++
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
