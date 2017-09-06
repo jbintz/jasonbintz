@@ -25,4 +25,6 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 1 (Due Monday September 4):** 1.1.5, 1.2.5, 1.2.6
 
+**Problem Set 2 (Due Wednesday, September 13):** 1.3.2, 1.4.7, 1.4.8
+
 ---------------------------------------------------------------------
