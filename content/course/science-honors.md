@@ -41,4 +41,7 @@ image = "fruit-wide.jpg"
 
 1. Complete the "Explorartory Data Analysis" course at DataCamp.
 
+### [Assignment 4: Due Monday, September 11](/courses/INTS150/assignments/science-honors-assignment-4/) 
+
+
 ---------------------------------------------------------------------
