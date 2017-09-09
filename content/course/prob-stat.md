@@ -55,3 +55,9 @@ You'll need to register an account with GitHub. Some good advice and instruction
 ## Class Activities {#activities}
 
 [Which coin?](/courses/MATH333/activities/which-coin/)
+
+---------------------------------------------------------------------
+
+## Notes {#activities}
+
+[Probability Distributions](/courses/MATH333/notes/probability-distributions)

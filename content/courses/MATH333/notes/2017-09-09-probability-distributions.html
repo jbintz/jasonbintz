@@ -1,0 +1,140 @@
+---
+title: Probability Distributions
+author: ''
+date: '2017-09-09'
+slug: probability-distributions
+categories: []
+tags: []
+---
+
+
+
+<div id="background" class="section level2">
+<h2>Background</h2>
+<div id="sample-spaces-and-events" class="section level3">
+<h3>Sample Spaces and Events</h3>
+<p>An <strong>experiment</strong> is any action or process whose outcome is subject to uncertainty. The <strong>sample space</strong> of an experiment, denoted <span class="math inline">\(\mathcal S\)</span>, is the set of all possible outcomes of that experiment. An <strong>event</strong> is any subset of <span class="math inline">\(\mathcal S\)</span>.</p>
+</div>
+<div id="axioms-of-probability" class="section level3">
+<h3>Axioms of Probability</h3>
+<p>Let <span class="math inline">\(\mathcal{S}\)</span> be a sample space, <span class="math inline">\(E\)</span> an event and <span class="math inline">\(\{E_1, E_2, ... \}\)</span> a countable collection of pairwise disjoint events. Then,</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(P(E)\geq 0\)</span></li>
+<li><span class="math inline">\(P(\mathcal{S})=1\)</span></li>
+<li><span class="math inline">\(P\left(\bigcup\limits_{i=1}^{\infty} E_{i}\right) = \sum\limits_{i=1}^{\infty} P(E_i)\)</span></li>
+</ol>
+</div>
+<div id="random-variable" class="section level3">
+<h3>Random Variable</h3>
+<p>Let <span class="math inline">\(\mathcal{S}\)</span> be a sample space and let <span class="math inline">\(X:\mathcal{S}\rightarrow\mathbb{R}\)</span>. Then <span class="math inline">\(X\)</span> is a <strong>random variable</strong>.</p>
+<p><strong>Example:</strong> For a coin toss we have <span class="math inline">\(\mathcal{S}=\{T, H\}\)</span>. Let <span class="math inline">\(X:\mathcal{S}\rightarrow\mathbb{R}\)</span> with <span class="math inline">\(X(T)=0\)</span> and <span class="math inline">\(X(H)=1\)</span>.</p>
+<p>A random variable is a <strong>discrete random variable</strong> if its set of values is countable. A random variable is <strong>continuous</strong> if its set of values is an interval. (That’s not quite accurate, but it’s good enough.)</p>
+</div>
+</div>
+<div id="probability-distributions" class="section level2">
+<h2>Probability Distributions</h2>
+<p>When probabilities are assigned to the outcomes in <span class="math inline">\(\mathcal{S}\)</span>, these in turn determine probabilities associated with the values of any random variable <span class="math inline">\(X\)</span> defined on <span class="math inline">\(\mathcal{S}\)</span>. The <strong>probability distribution of <span class="math inline">\(X\)</span></strong> describes how the total probability of 1 is distributed among the values of <span class="math inline">\(X\)</span>.</p>
+<div id="probability-mass-function-pmf" class="section level3">
+<h3>Probability Mass Function (pmf)</h3>
+<p>Let <span class="math inline">\(X:\mathcal{S}\rightarrow\mathbb{R}\)</span> be a discrete random variable. The <strong>probability mass function of <span class="math inline">\(X\)</span></strong> (pmf) is the function <span class="math inline">\(p:\mathbb{R}\rightarrow[0,1]\)</span> such that for all <span class="math inline">\(x\in\mathbb{R}\)</span>, <span class="math inline">\(p(x)=P(X=x)\)</span>.</p>
+<p><strong>Example:</strong> The pmf for the random variable in the previous example where the probability of heads is <span class="math inline">\(\theta\)</span> is given by</p>
+<p><span class="math display">\[p(x) = 
+  \begin{cases} 
+    1-\theta &amp; \text{if  } x=0 \\ 
+    \theta &amp; \text{if  } x=1 \\
+    0 &amp; \text{otherwise}
+  \end{cases}
+\]</span></p>
+<p>Probability mass functions can be visualized with a line graph. For <span class="math inline">\(\theta = 0.2, 0.5,\)</span> and <span class="math inline">\(0.8\)</span>:</p>
+<p><img src="/courses/MATH333/notes/2017-09-09-probability-distributions_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>It’s worth noting a couple of properties of a pmf:</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(p(x)\geq 0, x \in \mathbb R\)</span></li>
+<li><span class="math inline">\(p(x)=0, x \notin X(\mathcal S)\)</span></li>
+<li><span class="math inline">\(\sum_{x\in X(\mathcal S)}p(x)=1\)</span></li>
+</ol>
+<p>Before moving on to continuous rv’s, a couple more examples.</p>
+<p><strong>Example:</strong> Consider the experiment of tossing a coin twice and counting the number of heads. Give the sample space, define a sensible random variable and draw a line graph for the pmf.</p>
+<p>Solution: <span class="math inline">\(\mathcal{S}=\{TT, TH, HT, HH\}\)</span>. Define <span class="math inline">\(X:\mathcal{S}\rightarrow\mathbb{R}\)</span> by <span class="math inline">\(X(TT)=0\)</span>, <span class="math inline">\(X(TH)=X(HT)=1\)</span> and <span class="math inline">\(X(HH)=2\)</span>. Then the pmf is given by</p>
+<p><span class="math display">\[p(x) = 
+  \begin{cases} 
+    0.25 &amp; \text{if  } x=0 \\ 
+    .5 &amp; \text{if  } x=1 \\
+    0.25 &amp; \text{if  } x=2 \\ 
+    0 &amp; \text{otherwise}
+  \end{cases}
+\]</span></p>
+<pre class="r"><code>ex1_df &lt;- tibble(
+  x = c(0,1,2),
+  p_x = c(0.25, 0.5, 0.25)
+)
+ex1_df %&gt;% ggplot(aes(x, p_x)) + 
+  geom_col(width = 0.01) + 
+  geom_point()</code></pre>
+<p><img src="/courses/MATH333/notes/2017-09-09-probability-distributions_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><strong>Example:</strong> Consider the experiment of tossing a biased coin (where the probability of heads is <span class="math inline">\(\theta\)</span>) until it lands on heads. Give the sample space, define a sensible random variable and draw a line graph for the pmf.</p>
+<p>Solution: <span class="math inline">\(\mathcal{S}=\{H, TH, TTH, TTTH, ...\}\)</span>. Define <span class="math inline">\(X:\mathcal{S}\rightarrow\mathbb{R}\)</span> by the number of flips required. Then the pmf is given by</p>
+<p><span class="math display">\[p(x) = 
+  \begin{cases} 
+    (1-\theta)^{x-1}\theta, &amp; x=1,2,3,... \\ 
+    0 &amp; \text{otherwise}
+  \end{cases}
+\]</span></p>
+</div>
+<div id="probability-density-function-pdf" class="section level3">
+<h3>Probability Density Function (pdf)</h3>
+<p>Let <span class="math inline">\(X\)</span> be a continuous random variable. The <strong>probability density function of <span class="math inline">\(X\)</span></strong> (pdf) is a function <span class="math inline">\(f(x)\)</span> such that for <span class="math inline">\(a\leq b\)</span>,</p>
+<p><span class="math display">\[P(a\leq X\leq b)=\int_a^b f(x)\,dx.\]</span></p>
+<p>A couple of properties:</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(f(x)\geq 0, x\in\mathbb R\)</span></li>
+<li><span class="math inline">\(\int_{-\infty}^{\infty}f(x)\,dx=1\)</span></li>
+<li><span class="math inline">\(P(X=c)=\int_c^c f(x)\,dx=0\)</span></li>
+</ol>
+<p>Example: A <strong>uniform random variable</strong> on <span class="math inline">\([a,b]\)</span> is a model for “pick a random number between a and b.” The pdf is given by</p>
+<p><span class="math display">\[f(x) = 
+  \begin{cases} 
+    \frac{1}{b-a}, &amp; x\in[a,b] \\ 
+    0 &amp; \text{otherwise}
+  \end{cases}.
+\]</span></p>
+<p>Example: Let <span class="math inline">\(X\)</span> be <strong>normal random variable</strong>. Then <span class="math inline">\(X\)</span> has the pdf given by</p>
+<p><span class="math display">\[f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\]</span></p>
+<p>where <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\sigma^2\)</span> are the mean and variance of <span class="math inline">\(X\)</span>. These are properties of <span class="math inline">\(X\)</span> that we now discuss.</p>
+</div>
+<div id="mean-and-variance" class="section level3">
+<h3>Mean and Variance</h3>
+<p>Let <span class="math inline">\(X\)</span> be a random variable. The <strong>mean</strong> or <strong>expected value</strong> of <span class="math inline">\(X\)</span> is defined by</p>
+<p><span class="math display">\[\mathbb E(X)=
+  \begin{cases}
+    \displaystyle\sum_{x\in X(\mathcal S)}x\cdot p(x), &amp; X \text{   discrete} \\
+    \displaystyle\int_{-\infty}^{\infty}x\cdot f(x)\, dx, &amp; X \text{   continuous}
+  \end{cases}
+.\]</span></p>
+<p>The <strong>variance</strong> of <span class="math inline">\(X\)</span> is given by</p>
+<p><span class="math display">\[\mathbb V(X)=\mathbb E\left((X - \mathbb E(X))^2\right).\]</span></p>
+<p>The expected value is often denoted <span class="math inline">\(\mu\)</span> and the variance, <span class="math inline">\(\sigma^2\)</span>. The square root of the variance, <span class="math inline">\(\sigma\)</span>, is called the <strong>standard deviation.</strong></p>
+</div>
+<div id="highest-density-interval" class="section level3">
+<h3>Highest density interval</h3>
+<p>The mean gives us one way to quantify the central tendency of a distribution. Variance is one way to quantify the spread of a distribution. Another way to quantify the spread of a distribution is to specify the highest density interval (HDI). The 95% HDI for a distribution, for example, is an interval <span class="math inline">\(I\)</span> such that for <span class="math inline">\(x\in I\)</span>, <span class="math inline">\(f(x)&gt;W\)</span> for some fixed <span class="math inline">\(W\)</span> and</p>
+<p><span class="math display">\[\int_I f(x)\,dx = 0.95.\]</span></p>
+<div id="using-r-to-plot-a-normal-random-variable." class="section level4">
+<h4>Using R to plot a normal random variable.</h4>
+<p>We include some code here for plotting the pdf shown on page 83 in the text. This is the pdf of a normal rv with mean 0 and standard deviation 0.2.</p>
+<pre class="r"><code>f &lt;- function(x) (1 / sqrt(2 * pi * sig ^ 2)) * exp(-(x - mu) ^ 2 / 2 / sig ^ 2)
+dx &lt;- 0.01
+x &lt;- seq(-0.6, 0.6, by = dx)
+mu &lt;- 0
+sig &lt;- 0.2
+plot(x, f(x), type = &quot;l&quot;)</code></pre>
+<p><img src="/courses/MATH333/notes/2017-09-09-probability-distributions_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>We can estimate the area under this curve. What should it be close to? Why?</p>
+<pre class="r"><code>sum(f(x)[-1]*dx)</code></pre>
+<pre><code>## [1] 0.9972947</code></pre>
+<p>How much of the density is between <span class="math inline">\(x=-0.2\)</span> and <span class="math inline">\(0.2\)</span>?</p>
+<pre class="r"><code>sum(f(seq(-0.2, 0.2, by = dx))[-1]*dx)</code></pre>
+<pre><code>## [1] 0.6825887</code></pre>
+</div>
+</div>
+</div>
