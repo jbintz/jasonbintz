@@ -1,0 +1,77 @@
+---
+title: Joint Distribution Tables
+author: ''
+date: '2017-09-11'
+slug: joint-distribution-tables
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# get the pipe operator
+library(magrittr)
+```
+
+```{r}
+HairEyeColor
+```
+
+```{r}
+str(HairEyeColor)
+```
+
+Sum across sex:
+
+```{r}
+HairEyeColor %>% 
+  margin.table(c(1,2))
+```
+
+Joint distribution table (combined across gender):
+
+```{r}
+HairEyeColor %>% 
+  margin.table(c(1,2)) %>% 
+  prop.table() %>% 
+  round(2)
+```
+
+Marginal for hair:
+
+```{r}
+HairEyeColor %>% 
+  margin.table(1) %>% 
+  prop.table() %>% 
+  round(2)
+```
+
+Marginal for eye:
+
+```{r}
+HairEyeColor %>% 
+  margin.table(2) %>% 
+  prop.table() %>% 
+  round(2)
+```
+
+Conditional distribution given eye:
+
+```{r}
+HairEyeColor %>% 
+  margin.table(c(1,2)) %>% 
+  prop.table(2) %>% 
+  round(2)
+```
+
+Conditional distribution given hair:
+
+```{r}
+HairEyeColor %>% 
+  margin.table(c(1,2)) %>% 
+  prop.table(1) %>% 
+  round(2)
+```

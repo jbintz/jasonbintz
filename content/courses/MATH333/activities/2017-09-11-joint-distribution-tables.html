@@ -1,0 +1,95 @@
+---
+title: Joint Distribution Tables
+author: ''
+date: '2017-09-11'
+slug: joint-distribution-tables
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code># get the pipe operator
+library(magrittr)</code></pre>
+<pre class="r"><code>HairEyeColor</code></pre>
+<pre><code>## , , Sex = Male
+## 
+##        Eye
+## Hair    Brown Blue Hazel Green
+##   Black    32   11    10     3
+##   Brown    53   50    25    15
+##   Red      10   10     7     7
+##   Blond     3   30     5     8
+## 
+## , , Sex = Female
+## 
+##        Eye
+## Hair    Brown Blue Hazel Green
+##   Black    36    9     5     2
+##   Brown    66   34    29    14
+##   Red      16    7     7     7
+##   Blond     4   64     5     8</code></pre>
+<pre class="r"><code>str(HairEyeColor)</code></pre>
+<pre><code>##  table [1:4, 1:4, 1:2] 32 53 10 3 11 50 10 30 10 25 ...
+##  - attr(*, &quot;dimnames&quot;)=List of 3
+##   ..$ Hair: chr [1:4] &quot;Black&quot; &quot;Brown&quot; &quot;Red&quot; &quot;Blond&quot;
+##   ..$ Eye : chr [1:4] &quot;Brown&quot; &quot;Blue&quot; &quot;Hazel&quot; &quot;Green&quot;
+##   ..$ Sex : chr [1:2] &quot;Male&quot; &quot;Female&quot;</code></pre>
+<p>Sum across sex:</p>
+<pre class="r"><code>HairEyeColor %&gt;% 
+  margin.table(c(1,2))</code></pre>
+<pre><code>##        Eye
+## Hair    Brown Blue Hazel Green
+##   Black    68   20    15     5
+##   Brown   119   84    54    29
+##   Red      26   17    14    14
+##   Blond     7   94    10    16</code></pre>
+<p>Joint distribution table (combined across gender):</p>
+<pre class="r"><code>HairEyeColor %&gt;% 
+  margin.table(c(1,2)) %&gt;% 
+  prop.table() %&gt;% 
+  round(2)</code></pre>
+<pre><code>##        Eye
+## Hair    Brown Blue Hazel Green
+##   Black  0.11 0.03  0.03  0.01
+##   Brown  0.20 0.14  0.09  0.05
+##   Red    0.04 0.03  0.02  0.02
+##   Blond  0.01 0.16  0.02  0.03</code></pre>
+<p>Marginal for hair:</p>
+<pre class="r"><code>HairEyeColor %&gt;% 
+  margin.table(1) %&gt;% 
+  prop.table() %&gt;% 
+  round(2)</code></pre>
+<pre><code>## Hair
+## Black Brown   Red Blond 
+##  0.18  0.48  0.12  0.21</code></pre>
+<p>Marginal for eye:</p>
+<pre class="r"><code>HairEyeColor %&gt;% 
+  margin.table(2) %&gt;% 
+  prop.table() %&gt;% 
+  round(2)</code></pre>
+<pre><code>## Eye
+## Brown  Blue Hazel Green 
+##  0.37  0.36  0.16  0.11</code></pre>
+<p>Conditional distribution given eye:</p>
+<pre class="r"><code>HairEyeColor %&gt;% 
+  margin.table(c(1,2)) %&gt;% 
+  prop.table(2) %&gt;% 
+  round(2)</code></pre>
+<pre><code>##        Eye
+## Hair    Brown Blue Hazel Green
+##   Black  0.31 0.09  0.16  0.08
+##   Brown  0.54 0.39  0.58  0.45
+##   Red    0.12 0.08  0.15  0.22
+##   Blond  0.03 0.44  0.11  0.25</code></pre>
+<p>Conditional distribution given hair:</p>
+<pre class="r"><code>HairEyeColor %&gt;% 
+  margin.table(c(1,2)) %&gt;% 
+  prop.table(1) %&gt;% 
+  round(2)</code></pre>
+<pre><code>##        Eye
+## Hair    Brown Blue Hazel Green
+##   Black  0.63 0.19  0.14  0.05
+##   Brown  0.42 0.29  0.19  0.10
+##   Red    0.37 0.24  0.20  0.20
+##   Blond  0.06 0.74  0.08  0.13</code></pre>

@@ -11,6 +11,7 @@ image = "headers/bog_laurel_wide.jpg"
 [Course Resources](#resources)  
 [Assignments](#assn)  
 [Activities](#activities)
+[Notes](#notes)
 
 ---------------------------------------------------------------------
 
@@ -54,10 +55,11 @@ You'll need to register an account with GitHub. Some good advice and instruction
 
 ## Class Activities {#activities}
 
-[Which coin?](/courses/MATH333/activities/which-coin/)
+[Which coin?](/courses/MATH333/activities/which-coin/)  
+[Joint Distribution Tables](/courses/MATH333/activities/joint-distribution-tables/)
 
 ---------------------------------------------------------------------
 
-## Notes {#activities}
+## Notes {#notes}
 
 [Probability Distributions](/courses/MATH333/notes/probability-distributions)
