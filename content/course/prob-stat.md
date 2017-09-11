@@ -10,7 +10,7 @@ image = "headers/bog_laurel_wide.jpg"
 
 [Course Resources](#resources)  
 [Assignments](#assn)  
-[Activities](#activities)
+[Activities](#activities)  
 [Notes](#notes)
 
 ---------------------------------------------------------------------
