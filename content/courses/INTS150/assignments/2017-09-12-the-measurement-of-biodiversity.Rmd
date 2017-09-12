@@ -1,0 +1,40 @@
+---
+title: The Measurement of Biodiversity
+author: ''
+date: '2017-09-12'
+slug: the-measurement-of-biodiversity
+categories: []
+tags: []
+---
+
+Consider a community with $S$ distinct species and relative abundance vector $\textbf{p}=(p_1, p_2, ..., p_S)$. Three important diversity indices are reviewed here.
+
+#### Species Richness
+
+The number of distinct species, $S$, is clearly an important measure of diversity. This metric ignores, however, species relative abundances.
+
+#### Shannon Entropy
+
+Randomly select an individual from the community. The Shannon entropy, $H_{Sh}=-\sum_{i}p_i(1-p_i)$, is a measure of the uncertainty of the species identity of the individual. A higher uncertainty implies a greater diversity.
+
+#### Gini-Simpson Index
+
+Randomly select two individuals from the community. The Gini-Simpson index, $H_{\text{GS}}=1-\sum_i p_i^2$, gives the probability that the individuals represent different species. A higher probability implies a greater diversity.
+
+#### Doubling Property
+
+Let Community A consist of 10 individuals representing species~1~ and 5 individuals representing species~2~. Let Community B consist of 10 individuals representing species~3~ and 5 individuals representing species~4~. Let Community C be the combination of communities A and B. It seems intuitive that the diversity of Community C--however we measure it--ought to be twice that of Community A.
+
+Important as they are, the indices $H_{Sh}$ and $H_{\text{GS}}$ for Community C are not twice that of Community A. They should not, therefore, be regarded as diversities.
+
+#### Hill Numbers
+
+Diversities ought to obey the doubling property. They should also measure conserved quantities and have the same units. Hill numbers are a class of such diversities. The Hill number order q is defined by $^qD=\left(\sum_ip_i^q\right)^\frac{1}{1-q}$. (For q =1, see tutorial.)
+
+The diversity indices reviewed above are related to Hill numbers:
+
+$^0D=S$  
+$^1D=e^{H_{Sh}}$  
+$^2D=\frac{1}{1-H_{\text{GS}}}$  
+
+Your assignment is to complete the tutorial that we began in class and, sometime afterward, review it.

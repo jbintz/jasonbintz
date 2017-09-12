@@ -43,5 +43,5 @@ image = "fruit-wide.jpg"
 
 ### [Assignment 4: Due Monday, September 11](/courses/INTS150/assignments/science-honors-assignment-4/) 
 
-
+### [Assignment 5: Due Tuesday, September 19](/courses/INTS150/assignments/the-measurement-of-biodiversity)
 ---------------------------------------------------------------------

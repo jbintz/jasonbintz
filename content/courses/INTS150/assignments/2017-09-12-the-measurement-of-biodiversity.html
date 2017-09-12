@@ -1,0 +1,38 @@
+---
+title: The Measurement of Biodiversity
+author: ''
+date: '2017-09-12'
+slug: the-measurement-of-biodiversity
+categories: []
+tags: []
+---
+
+
+
+<p>Consider a community with <span class="math inline">\(S\)</span> distinct species and relative abundance vector <span class="math inline">\(\textbf{p}=(p_1, p_2, ..., p_S)\)</span>. Three important diversity indices are reviewed here.</p>
+<div id="species-richness" class="section level4">
+<h4>Species Richness</h4>
+<p>The number of distinct species, <span class="math inline">\(S\)</span>, is clearly an important measure of diversity. This metric ignores, however, species relative abundances.</p>
+</div>
+<div id="shannon-entropy" class="section level4">
+<h4>Shannon Entropy</h4>
+<p>Randomly select an individual from the community. The Shannon entropy, <span class="math inline">\(H_{Sh}=-\sum_{i}p_i(1-p_i)\)</span>, is a measure of the uncertainty of the species identity of the individual. A higher uncertainty implies a greater diversity.</p>
+</div>
+<div id="gini-simpson-index" class="section level4">
+<h4>Gini-Simpson Index</h4>
+<p>Randomly select two individuals from the community. The Gini-Simpson index, <span class="math inline">\(H_{\text{GS}}=1-\sum_i p_i^2\)</span>, gives the probability that the individuals represent different species. A higher probability implies a greater diversity.</p>
+</div>
+<div id="doubling-property" class="section level4">
+<h4>Doubling Property</h4>
+<p>Let Community A consist of 10 individuals representing species<sub>1</sub> and 5 individuals representing species<sub>2</sub>. Let Community B consist of 10 individuals representing species<sub>3</sub> and 5 individuals representing species<sub>4</sub>. Let Community C be the combination of communities A and B. It seems intuitive that the diversity of Community C–however we measure it–ought to be twice that of Community A.</p>
+<p>Important as they are, the indices <span class="math inline">\(H_{Sh}\)</span> and <span class="math inline">\(H_{\text{GS}}\)</span> for Community C are not twice that of Community A. They should not, therefore, be regarded as diversities.</p>
+</div>
+<div id="hill-numbers" class="section level4">
+<h4>Hill Numbers</h4>
+<p>Diversities ought to obey the doubling property. They should also measure conserved quantities and have the same units. Hill numbers are a class of such diversities. The Hill number order q is defined by <span class="math inline">\(^qD=\left(\sum_ip_i^q\right)^\frac{1}{1-q}\)</span>. (For q =1, see tutorial.)</p>
+<p>The diversity indices reviewed above are related to Hill numbers:</p>
+<p><span class="math inline">\(^0D=S\)</span><br />
+<span class="math inline">\(^1D=e^{H_{Sh}}\)</span><br />
+<span class="math inline">\(^2D=\frac{1}{1-H_{\text{GS}}}\)</span></p>
+<p>Your assignment is to complete the tutorial that we began in class and, sometime afterward, review it.</p>
+</div>
