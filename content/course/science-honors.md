@@ -11,7 +11,8 @@ image = "fruit-wide.jpg"
 ## Index
 
 [Course Resources](#resources)  
-[Assignments](#assn)
+[Assignments](#assn)  
+[Biodiversity](#biodiv)
 
 ---------------------------------------------------------------------
 
@@ -45,3 +46,7 @@ image = "fruit-wide.jpg"
 
 ### [Assignment 5: Due Tuesday, September 19](/courses/INTS150/assignments/the-measurement-of-biodiversity)
 ---------------------------------------------------------------------
+
+## Biodiversity {#biodiv}
+
+[The Measurement of Biodiversity](/courses/INTS150/assignments/the-measurement-of-biodiversity)
