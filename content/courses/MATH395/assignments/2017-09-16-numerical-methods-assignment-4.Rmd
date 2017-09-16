@@ -1,0 +1,20 @@
+---
+title: 'Numerical Methods: Assignment 4'
+author: ''
+date: '2017-09-16'
+slug: numerical-methods-assignment-4
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We did the first two problems during our class time. Just copy/paste as appropriate.
+
+1.  Implement the bisection method. Use the stopping criterion: `(abs(b_n - a_n) / min(abs(a_n), abs(b_n))) <= tol`. Show that this criterion guarantees the relative error is <= tol. Show that this method requires (something close to) 30 iterations for tol = 1e-10 for $f(x)=x^3+4x^2-10$ on the interval $[1,2]$.
+
+1.  Implement Newton-Raphson. Show that this method requires 4 iterations for tol = 1e-10 for $f(x)=x^3+4x^2-10$ on the interval $[1,2]$.
+
+1.  Exercise 10.6.6. Don't forget about the part of this problem on page 198! 
