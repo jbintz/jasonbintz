@@ -53,6 +53,8 @@ You'll need to register an account with GitHub. Some good advice and instruction
 
 [Assignment 5: Due Wednesday, September 20](/courses/MATH333/assignments/probability-and-statistics-assignment-5/)
 
+[Assignment 6: Due Wednesday, September 27](/courses/MATH333/assignments/probability-and-statistics-assignment-6/)
+
 ---------------------------------------------------------------------
 
 ## Class Activities {#activities}

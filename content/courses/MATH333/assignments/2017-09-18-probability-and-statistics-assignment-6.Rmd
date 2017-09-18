@@ -1,0 +1,24 @@
+---
+title: 'Probability and Statistics: Assignment 6'
+author: ''
+date: '2017-09-18'
+slug: probability-and-statistics-assignment-6
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+When these problems ask you to use `BernBeta.R`, you should instead use the function, `bern_data()`, that I provided in class.
+
+1.  Exercise 6.1
+
+1.  Modify the function, `bern_data()`, so that it returns the 95% HDI of the posterior. It doesn't have to be indicated or drawn on the plot, though that would be a nice feature.
+
+1.  Exercise 6.2
+
+1.  Exercise 6.4
+
+1.  Exercise 6.5
