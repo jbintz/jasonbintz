@@ -1,0 +1,14 @@
+---
+title: 'Numerical Methods: Assignment 5'
+author: ''
+date: '2017-09-21'
+slug: numerical-methods-assignment-5
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  Exercise 11.4
