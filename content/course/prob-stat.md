@@ -66,4 +66,5 @@ You'll need to register an account with GitHub. Some good advice and instruction
 
 ## Notes {#notes}
 
-[Probability Distributions](/courses/MATH333/notes/probability-distributions)
+[Probability Distributions](/courses/MATH333/notes/probability-distributions)  
+[Inferring a Binomial Probability](/courses/MATH333/notes/inferring-a-binomial-probability)
