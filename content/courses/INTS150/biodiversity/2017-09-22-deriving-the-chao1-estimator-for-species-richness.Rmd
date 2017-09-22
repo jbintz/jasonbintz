@@ -1,0 +1,71 @@
+---
+title: Deriving the Chao1 Estimator for Species Richness
+author: ''
+date: '2017-09-22'
+slug: deriving-the-chao1-estimator-for-species-richness
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We here derive an estimate for species richness based on a reference sample. Our goal is to find an estimate for $S$ which will be achieved by finding an estimate for $f_0$, the number of species not detected in the reference sample.
+
+Imagine a hypothetical community that we know has $S$ species with relative abundances $(p_1, p_2, ... , p_S)$. (Notice that the relative abundance vector indexes the $S$ species. If I refer to "species 3", that means the species whose relative abundance is given by $p_3$.)
+
+If we randomly select $n$ individuals from this hypothetical community, what do we *expect* to be the number of undetected species? The answer is the sum of the probabilities of each individual species going undetected in a sample of size $n$:
+
+\[E[f_0]=\sum_{i=1}^S P(X_i=0)=\sum_{i=1}^S (1-p_i)^n\]
+
+This is some progress. We have a theoretical expected value for the thing we want to estimate. But we still have work to do. This estimate is in terms of both $S$ and $p_i$, neither of which is known.
+
+The next step is to find the expected number of singletons in a random sample of size $n$. The answer, similar to the logic above, is the sum of the probabilities of each species being detected only once:
+
+\[E[f_1]=\sum_{i=1}^S P(X_i=1)\]
+
+We were able to find $P(X_i=0)$. Can we do the same for $P(X_i=1)$? 
+
+It's a bit trickier. In a sample of size $n$, there is only one way that, say, species 3 can go undetected: none of the $n$ individuals selected represent species 3. 
+
+There is more than one way, however, that species 3 can be represented by one individual. Specifically, there are $n$ ways that this can happen:
+
+**Possibility 1:** the first individual selected represents species 3 and none of the other individuals selected represents species 3
+
+**Possibility 2:** the second individual selected represents species 3 and none of the other individuals selected represents species 3
+
+and so on...
+
+Thus:
+
+\[E[f_1]=\sum_{i=1}^S P(X_i=1)=\sum_{i=1}^S np_i(1-p_i)^{n-1}\]
+
+A similar thought process gives the expected number of doubletons:
+
+\[E[f_2]=\sum_{i=1}^S P(X_i=2)=\sum_{i=1}^S \frac{n(n-1)}{2}p_i^2(1-p_i)^{n-2}\]
+
+Putting these pieces together we have:
+
+$$
+\begin{aligned}
+\left(E[f_1]\right)^2&=\left(\sum_{i=1}^S np_i(1-p_i)^{n-1}\right)^2\\
+&=n^2\left(\sum_{i=1}^S p_i(1-p_i)^{n-1}\right)^2\\
+&=n^2\left(\sum_{i=1}^S p_i(1-p_i)^{\frac{n-2}{2}}(1-p_i)^{\frac{n}{2}}\right)^2\\
+&\leq n^2\sum_{i=1}^S\left( p_i(1-p_i)^{\frac{n-2}{2}}\right)^2\sum_{i=1}^S\left((1-p_i)^{\frac{n}{2}}\right)^2\\
+&= n^2\sum_{i=1}^S p_i^2(1-p_i)^{n-2}\sum_{i=1}^S(1-p_i)^n\\
+&=\frac{2n^2}{n(n-1)}E[f_2]E[f_0]
+\end{aligned}
+$$
+
+The inequality above is an application of the Cauchy-Schwarz inequality. Rearranging, we obtain a lower bound on $E[f_0]$ in terms of $E[f_1]$ and $E[f_2]$:
+
+\[E[f_0]\geq\frac{n-1}{n}\frac{E[f_1]^2}{2E[f_2]}\]
+
+This inequality says that the expected value of $f_0$ is no smaller than the expression on the right-hand side. Notice that this expression does not involve $S$ or $p_i$. If we use the "plug-in" estimators for $E[f_1]$ and $E[f_2]$, we obtain the estimator
+
+\[\hat{f_0}=\frac{n-1}{n}\frac{f_1^2}{2f_2}.\]
+
+Recalling that $S=S_{obs}+f_0$, we have thus derived the well-known Chao1 estimator for $S$:
+
+\[{\widehat{S}}_{Chao1}=S_{obs}+\frac{n-1}{n}\frac{f_1^2}{2f_2}.\]

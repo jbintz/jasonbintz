@@ -1,0 +1,45 @@
+---
+title: Deriving the Chao1 Estimator for Species Richness
+author: ''
+date: '2017-09-22'
+slug: deriving-the-chao1-estimator-for-species-richness
+categories: []
+tags: []
+---
+
+
+
+<p>We here derive an estimate for species richness based on a reference sample. Our goal is to find an estimate for <span class="math inline">\(S\)</span> which will be achieved by finding an estimate for <span class="math inline">\(f_0\)</span>, the number of species not detected in the reference sample.</p>
+<p>Imagine a hypothetical community that we know has <span class="math inline">\(S\)</span> species with relative abundances <span class="math inline">\((p_1, p_2, ... , p_S)\)</span>. (Notice that the relative abundance vector indexes the <span class="math inline">\(S\)</span> species. If I refer to “species 3”, that means the species whose relative abundance is given by <span class="math inline">\(p_3\)</span>.)</p>
+<p>If we randomly select <span class="math inline">\(n\)</span> individuals from this hypothetical community, what do we <em>expect</em> to be the number of undetected species? The answer is the sum of the probabilities of each individual species going undetected in a sample of size <span class="math inline">\(n\)</span>:</p>
+<p><span class="math display">\[E[f_0]=\sum_{i=1}^S P(X_i=0)=\sum_{i=1}^S (1-p_i)^n\]</span></p>
+<p>This is some progress. We have a theoretical expected value for the thing we want to estimate. But we still have work to do. This estimate is in terms of both <span class="math inline">\(S\)</span> and <span class="math inline">\(p_i\)</span>, neither of which is known.</p>
+<p>The next step is to find the expected number of singletons in a random sample of size <span class="math inline">\(n\)</span>. The answer, similar to the logic above, is the sum of the probabilities of each species being detected only once:</p>
+<p><span class="math display">\[E[f_1]=\sum_{i=1}^S P(X_i=1)\]</span></p>
+<p>We were able to find <span class="math inline">\(P(X_i=0)\)</span>. Can we do the same for <span class="math inline">\(P(X_i=1)\)</span>?</p>
+<p>It’s a bit trickier. In a sample of size <span class="math inline">\(n\)</span>, there is only one way that, say, species 3 can go undetected: none of the <span class="math inline">\(n\)</span> individuals selected represent species 3.</p>
+<p>There is more than one way, however, that species 3 can be represented by one individual. Specifically, there are <span class="math inline">\(n\)</span> ways that this can happen:</p>
+<p><strong>Possibility 1:</strong> the first individual selected represents species 3 and none of the other individuals selected represents species 3</p>
+<p><strong>Possibility 2:</strong> the second individual selected represents species 3 and none of the other individuals selected represents species 3</p>
+<p>and so on…</p>
+<p>Thus:</p>
+<p><span class="math display">\[E[f_1]=\sum_{i=1}^S P(X_i=1)=\sum_{i=1}^S np_i(1-p_i)^{n-1}\]</span></p>
+<p>A similar thought process gives the expected number of doubletons:</p>
+<p><span class="math display">\[E[f_2]=\sum_{i=1}^S P(X_i=2)=\sum_{i=1}^S \frac{n(n-1)}{2}p_i^2(1-p_i)^{n-2}\]</span></p>
+<p>Putting these pieces together we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\left(E[f_1]\right)^2&amp;=\left(\sum_{i=1}^S np_i(1-p_i)^{n-1}\right)^2\\
+&amp;=n^2\left(\sum_{i=1}^S p_i(1-p_i)^{n-1}\right)^2\\
+&amp;=n^2\left(\sum_{i=1}^S p_i(1-p_i)^{\frac{n-2}{2}}(1-p_i)^{\frac{n}{2}}\right)^2\\
+&amp;\leq n^2\sum_{i=1}^S\left( p_i(1-p_i)^{\frac{n-2}{2}}\right)^2\sum_{i=1}^S\left((1-p_i)^{\frac{n}{2}}\right)^2\\
+&amp;= n^2\sum_{i=1}^S p_i^2(1-p_i)^{n-2}\sum_{i=1}^S(1-p_i)^n\\
+&amp;=\frac{2n^2}{n(n-1)}E[f_2]E[f_0]
+\end{aligned}
+\]</span></p>
+<p>The inequality above is an application of the Cauchy-Schwarz inequality. Rearranging, we obtain a lower bound on <span class="math inline">\(E[f_0]\)</span> in terms of <span class="math inline">\(E[f_1]\)</span> and <span class="math inline">\(E[f_2]\)</span>:</p>
+<p><span class="math display">\[E[f_0]\geq\frac{n-1}{n}\frac{E[f_1]^2}{2E[f_2]}\]</span></p>
+<p>This inequality says that the expected value of <span class="math inline">\(f_0\)</span> is no smaller than the expression on the right-hand side. Notice that this expression does not involve <span class="math inline">\(S\)</span> or <span class="math inline">\(p_i\)</span>. If we use the “plug-in” estimators for <span class="math inline">\(E[f_1]\)</span> and <span class="math inline">\(E[f_2]\)</span>, we obtain the estimator</p>
+<p><span class="math display">\[\hat{f_0}=\frac{n-1}{n}\frac{f_1^2}{2f_2}.\]</span></p>
+<p>Recalling that <span class="math inline">\(S=S_{obs}+f_0\)</span>, we have thus derived the well-known Chao1 estimator for <span class="math inline">\(S\)</span>:</p>
+<p><span class="math display">\[{\widehat{S}}_{Chao1}=S_{obs}+\frac{n-1}{n}\frac{f_1^2}{2f_2}.\]</span></p>

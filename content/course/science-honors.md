@@ -50,3 +50,5 @@ image = "fruit-wide.jpg"
 ## Biodiversity {#biodiv}
 
 [The Measurement of Biodiversity](/courses/INTS150/assignments/the-measurement-of-biodiversity)
+
+[Deriving the Chao1 Estimator for Species Richness](/courses/INTS150/biodiversity/deriving-the-chao1-estimator-for-species-richness)
