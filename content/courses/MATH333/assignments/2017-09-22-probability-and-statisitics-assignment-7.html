@@ -1,0 +1,30 @@
+---
+title: 'Probability and Statistics: Assignment 7'
+author: ''
+date: '2017-09-22'
+slug: probability-and-statistics-assignment-7
+categories: []
+tags: []
+---
+
+
+
+<p>Please remember to do your homework completely in RMarkdown!</p>
+<ol style="list-style-type: decimal">
+<li><p>Approximating a distribution by a large sample.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Use the function <code>dbeta()</code> to produce a plot of the pdf for <span class="math inline">\(X\sim Beta(15,7)\)</span>.</p></li>
+<li><p>Now use the function <code>rbeta()</code> to <em>generate lots of data drawn from this distribution</em> and then produce a (relative frequency) histogram for the data.</p></li>
+<li><p>Now combine parts a and b to show that if you have a sufficient amount of data, then the histogram has the same shape as the pdf.</p></li>
+<li><p>In a few sentences, describe what this exercise illustrates and how it is related to the Metropolis algorithm.</p></li>
+</ol></li>
+<li><p>Implement the Metropolis algorithm as discussed in class. Your should write your own code and it should be commented. This function should take the following inputs:</p>
+<ul>
+<li>the number of “visits” to be made</li>
+<li>a vector indicating the <em>range</em> of parameter values (For this simple example, there are only seven values with positive probabilities, but, for the next problem, there is a continuum of possible values.)</li>
+<li>a function that will return the value of the numerator for a given value of the parameter</li>
+</ul>
+<p>The function should return a vector of the “visits”.</p></li>
+<li><p>Use the function from the previous problem to show that the distribution of the “visits” vector looks like the target distribution in Figure 7.3.</p></li>
+<li><p>Modify your code so that it applies the Metropolis algorithm to a Bernoulli likelihood and beta prior. See section 7.3.1 in the text and, in particular, the procedure outlined on page 158. After writing the code, use it on the same example illustrated in figure 7.4. You should be able to reproduce the three different histograms. (They don’t have to be notated like the ones in the book.)</p></li>
+</ol>

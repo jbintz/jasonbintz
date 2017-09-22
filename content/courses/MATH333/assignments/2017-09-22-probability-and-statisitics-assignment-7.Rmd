@@ -1,0 +1,36 @@
+---
+title: 'Probability and Statistics: Assignment 7'
+author: ''
+date: '2017-09-22'
+slug: probability-and-statistics-assignment-7
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Please remember to do your homework completely in RMarkdown!
+
+1.  Approximating a distribution by a large sample.
+
+    a.  Use the function `dbeta()` to produce a plot of the pdf for $X\sim Beta(15,7)$.
+    
+    a.  Now use the function `rbeta()` to *generate lots of data drawn from this distribution* and then produce a (relative frequency) histogram for the data. 
+    
+    a.  Now combine parts a and b to show that if you have a sufficient amount of data, then the histogram has the same shape as the pdf.
+    
+    a.  In a few sentences, describe what this exercise illustrates and how it is related to the Metropolis algorithm.
+    
+1.  Implement the Metropolis algorithm as discussed in class. Your should write your own code and it should be commented. This function should take the following inputs: 
+
+    -  the number of "visits" to be made
+    -  a vector indicating the *range* of parameter values (For this simple example, there are only seven values with positive probabilities, but, for the next problem, there is a continuum of possible values.)
+    -  a function that will return the value of the numerator for a given value of the parameter    
+
+    The function should return a vector of the "visits".
+    
+1.  Use the function from the previous problem to show that the distribution of the "visits" vector looks like the target distribution in Figure 7.3.
+
+1.  Modify your code so that it applies the Metropolis algorithm to a Bernoulli likelihood and beta prior. See section 7.3.1 in the text and, in particular, the procedure outlined on page 158. After writing the code, use it on the same example illustrated in figure 7.4. You should be able to reproduce the three different histograms. (They don't have to be notated like the ones in the book.)
