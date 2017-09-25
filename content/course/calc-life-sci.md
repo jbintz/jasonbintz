@@ -9,7 +9,8 @@ image = "headers/bog_laurel_wide.jpg"
 ## Index
 
 [Course Resources](#resources)  
-[Assignments](#assn)
+[Assignments](#assn)  
+[Exams](#exams)  
 
 ---------------------------------------------------------------------
 
@@ -34,3 +35,7 @@ image = "headers/bog_laurel_wide.jpg"
 **Problem Set 5 (Due Friday, September 29):** 2.2.4 (omit part d), 2.3.1, 2.3.2, 2.3.6, 2.3.8
 
 ---------------------------------------------------------------------
+
+## Exams {#exams}
+
+Exam 1: Friday, October 6  
