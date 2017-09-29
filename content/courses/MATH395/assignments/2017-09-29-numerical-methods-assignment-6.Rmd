@@ -1,0 +1,10 @@
+---
+title: 'Numerical Methods: Assignment 6'
+author: ''
+date: '2017-09-29'
+slug: numerical-methods-assignment-6
+categories: []
+tags: []
+---
+
+Write a function that implements Newton's method for solving a nonlinear system of equations. For the step that requires solving a linear system, you can use the R function `solve()`. Then, use your function to solve the system I gave in class.
