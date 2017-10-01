@@ -71,4 +71,5 @@ You'll need to register an account with GitHub. Some good advice and instruction
 ## Notes {#notes}
 
 [Probability Distributions](/courses/MATH333/notes/probability-distributions)  
-[Inferring a Binomial Probability](/courses/MATH333/notes/inferring-a-binomial-probability)
+[Inferring a Binomial Probability](/courses/MATH333/notes/inferring-a-binomial-probability)  
+[Markov Chain Monte Carlo Methods](/courses/MATH333/notes/markov-chain-monte-carlo-methods)
