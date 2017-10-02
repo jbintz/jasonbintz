@@ -17,8 +17,4 @@ Please remember to do your homework completely in RMarkdown!
 
 1.  I provided a function called `bern_beta()` for the one coin, Bernoulli likelihood, Beta prior problem. Modify **this** function to make a new function, `bern_beta_beta()`, for the two coin problem. Then use it to solve the problem illustrated in Figure 7.5. In fact, your code should reproduce the result shown in Figure 7.5. You don't have to reproduce the left-hand column that contains the three dimensional density plots, but, if you do, it will be good for some extra credit. The right-hand column contains the corresponding (two-dimensional) contour plots. To get these, you need to modify the `gather()` and `ggplot()` lines appropriately, change `geom_line` to `geom_contour`, remove the `geom_area()` line, and change "free" to "fixed" in the `facet_wrap()` line. 
 
-1.  Now write a new function that solves this problem for the two coin problem via the Metropolis algorithm. Then use the function to solve the same problem you just solved analytically in the previous question. This is also illustrated in Figure 7.6. Your code should reproduce the result shown in Figure 7.6. I will add some details here to help you out with that. Check back.
-
-1.  There will be a question here pertaining to Gibbs sampling.
-
-1.  There may be other questions as well.
+1.  Now write a new function that solves this problem for the two coin problem via the Metropolis algorithm. Then use the function to solve the same problem you just solved analytically in the previous question. This is also illustrated in Figure 7.6. Your code should reproduce the result shown in Figure 7.6. See course notes on the website for help.
