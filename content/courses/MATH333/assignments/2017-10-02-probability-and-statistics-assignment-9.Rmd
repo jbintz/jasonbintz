@@ -13,6 +13,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.  Read the introduction to Gibbs sampling on pages 170-176 in the text. After reading, copy my code that implements Gibbs sampling to solve the two coin problem. You can find this in the course notes. Make sure you can run the code. You'll need to add a line that loads the `tidyverse`. Add comments to the code explaining what each line does.
 
-1.  Similar to exercise 7.2, but using the code I provide. Check back.
-
 1.  Exercise 7.3 but using your own code (that you already wrote for the previous assignment).
