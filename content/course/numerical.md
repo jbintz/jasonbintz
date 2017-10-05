@@ -57,4 +57,6 @@ You'll need to register an account with GitHub. Some good advice and instruction
 
 [Assignment 6: Due Tuesday, October 3](/courses/MATH395/assignments/numerical-methods-assignment-6/)
 
+[Assignment 7: Due Tuesday, October 10](/courses/MATH395/assignments/numerical-methods-assignment-7/)
+
 ---------------------------------------------------------------------

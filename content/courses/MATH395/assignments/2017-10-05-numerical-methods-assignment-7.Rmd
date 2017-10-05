@@ -1,0 +1,10 @@
+---
+title: 'Numerical Methods: Assignment 7'
+author: ''
+date: '2017-10-05'
+slug: numerical-methods-assignment-7
+categories: []
+tags: []
+---
+
+Write a function that implements the steepest descent method we described in class for solving a nonlinear system of equations. Then, use your function to solve the same system from the previous assignment.
