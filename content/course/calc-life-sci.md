@@ -34,6 +34,8 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 5 (Due Friday, September 29):** 2.2.4 (omit part d), 2.3.1, 2.3.2, 2.3.6, 2.3.8
 
+**Problem Set 6 (Due Friday, October 27):** 3.1.2, 3.1.4, 3.1.7
+
 ---------------------------------------------------------------------
 
 ## Exams {#exams}
