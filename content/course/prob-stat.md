@@ -66,7 +66,8 @@ You'll need to register an account with GitHub. Some good advice and instruction
 ## Class Activities {#activities}
 
 [Which coin?](/courses/MATH333/activities/which-coin/)  
-[Joint Distribution Tables](/courses/MATH333/activities/joint-distribution-tables/)
+[Joint Distribution Tables](/courses/MATH333/activities/joint-distribution-tables/)  
+[Logistic Jags Example](/courses/MATH333/activities/logistic-jags-example)
 
 ---------------------------------------------------------------------
 
