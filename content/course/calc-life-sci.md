@@ -36,8 +36,13 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 6 (Due Friday, October 27):** 3.1.2, 3.1.4, 3.1.7
 
+**Problem Set 7 (Due Friday, November 3):** 3.2.5.efghijkl, 3.2.10fghikm
+
+**Problem Set 8 (Due Wednesday, November 8):** 3.3.1.afhjnoq, 3.3.3acd, 3.3.4, 3.3.5, 3.3.6
+
 ---------------------------------------------------------------------
 
 ## Exams {#exams}
 
-Exam 1: Friday, October 6  
+Exam 1: Friday, October 6 (covers Ch. 1)  
+Exam 2: Friday, November 10 (covers Ch. 2)  
