@@ -64,6 +64,7 @@ You'll need to register an account with GitHub. Some good advice and instruction
 [Assignment 10: Due Friday, November 3](/courses/MATH333/assignments/probability-and-statistics-assignment-10/)
 
 - The raw .Rmd file can be found [here](https://gist.githubusercontent.com/jbintz/b7e31710431184e97886727197c5f8de/raw/22ac20ffd456cb08d71131a74658d197315aa0b9/assignment10.Rmd)
+
 ---------------------------------------------------------------------
 
 ## Class Activities {#activities}
