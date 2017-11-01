@@ -45,4 +45,4 @@ image = "headers/bog_laurel_wide.jpg"
 ## Exams {#exams}
 
 Exam 1: Friday, October 6 (covers Ch. 1)  
-Exam 2: Friday, November 10 (covers Ch. 2)  
+Exam 2: Friday, November 10 (covers all of Ch. 2, 3.1 and 3.2)  
