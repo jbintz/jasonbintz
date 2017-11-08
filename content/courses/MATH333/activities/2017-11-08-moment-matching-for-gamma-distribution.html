@@ -1,0 +1,35 @@
+---
+title: Moment Matching for Gamma Distribution
+author: ''
+date: '2017-11-08'
+slug: moment-matching-for-gamma-distribution
+categories: []
+tags: []
+---
+
+
+
+<ol style="list-style-type: decimal">
+<li><p>The <strong>gamma function</strong> (not to be confused with the gamma density function; see below) is given by</p>
+<p><span class="math display">\[
+  \Gamma(\alpha)=\int_0^\infty x^{\alpha - 1}e^{-x} \, dx, \alpha &gt; 0.
+\]</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Show that <span class="math inline">\(\int_0^\infty x^{\alpha - 1}e^{-\beta x} \, dx=\frac{\Gamma(\alpha)}{\beta^\alpha}\)</span> for <span class="math inline">\(\alpha,\beta &gt; 0\)</span></p></li>
+<li><p>Show that <span class="math inline">\(\Gamma(\alpha + 1)=\alpha\Gamma(\alpha)\)</span></p></li>
+</ol></li>
+<li><p>Let <span class="math inline">\(Z\sim\text{Gamma}(\alpha, \beta)\)</span>. The density function is given by</p>
+<p><span class="math display">\[
+  [z|\alpha, \beta]=\frac{\beta^\alpha}{\Gamma(\alpha)}z^{\alpha-1}e^{-\beta z}.
+\]</span></p>
+<p>Use the properties of the gamma function from the previous exercise to show the following:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p><span class="math inline">\(E(Z)=\frac{\alpha}{\beta}\)</span></p></li>
+<li><p><span class="math inline">\(Var(Z)=\frac{\alpha}{\beta^2}\)</span></p></li>
+</ol></li>
+<li><p>Let <span class="math inline">\(\mu=E(Z)\)</span> and <span class="math inline">\(\sigma^2=Var(Z)\)</span>. Show the following:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p><span class="math inline">\(\alpha=\frac{\mu^2}{\sigma^2}\)</span></p></li>
+<li><p><span class="math inline">\(\beta=\frac{\mu}{\sigma^2}\)</span></p></li>
+</ol></li>
+</ol>

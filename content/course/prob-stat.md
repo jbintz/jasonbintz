@@ -71,7 +71,8 @@ You'll need to register an account with GitHub. Some good advice and instruction
 
 [Which coin?](/courses/MATH333/activities/which-coin/)  
 [Joint Distribution Tables](/courses/MATH333/activities/joint-distribution-tables/)  
-[Logistic Jags Example](/courses/MATH333/activities/logistic-jags-example)
+[Logistic Jags Example](/courses/MATH333/activities/logistic-jags-example)  
+[Moment Matching for Gamma Distribution](/courses/MATH333/activities/moment-matching-for-gamma-distribution)  
 
 ---------------------------------------------------------------------
 

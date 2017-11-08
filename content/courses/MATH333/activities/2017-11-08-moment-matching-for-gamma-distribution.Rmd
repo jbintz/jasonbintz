@@ -1,0 +1,36 @@
+---
+title: Moment Matching for Gamma Distribution
+author: ''
+date: '2017-11-08'
+slug: moment-matching-for-gamma-distribution
+categories: []
+tags: []
+---
+
+1.  The **gamma function** (not to be confused with the gamma density function; see below) is given by
+
+    \[
+      \Gamma(\alpha)=\int_0^\infty x^{\alpha - 1}e^{-x} \, dx, \alpha > 0.
+    \]
+
+    a.  Show that $\int_0^\infty x^{\alpha - 1}e^{-\beta x} \, dx=\frac{\Gamma(\alpha)}{\beta^\alpha}$ for $\alpha,\beta > 0$
+    
+    a.  Show that $\Gamma(\alpha + 1)=\alpha\Gamma(\alpha)$
+
+1.  Let $Z\sim\text{Gamma}(\alpha, \beta)$. The density function is given by
+
+    \[
+      [z|\alpha, \beta]=\frac{\beta^\alpha}{\Gamma(\alpha)}z^{\alpha-1}e^{-\beta z}.
+    \]
+    
+    Use the properties of the gamma function from the previous exercise to show the following:
+
+    a.  $E(Z)=\frac{\alpha}{\beta}$
+
+    a.  $Var(Z)=\frac{\alpha}{\beta^2}$
+    
+1. Let $\mu=E(Z)$ and $\sigma^2=Var(Z)$. Show the following:
+    
+    a.  $\alpha=\frac{\mu^2}{\sigma^2}$
+    
+    a.  $\beta=\frac{\mu}{\sigma^2}$
