@@ -15,7 +15,7 @@ tags: []
 
     a.  Show that $\int_0^\infty x^{\alpha - 1}e^{-\beta x} \, dx=\frac{\Gamma(\alpha)}{\beta^\alpha}$ for $\alpha,\beta > 0$. Hint: Use the substitution $u=\beta x$.
     
-    a.  Show that $\Gamma(\alpha + 1)=\alpha\Gamma(\alpha)$.
+    a.  Show that $\Gamma(\alpha + 1)=\alpha\Gamma(\alpha)$. Hint: Use integration by parts.
 
 1.  Let $Z\sim\text{Gamma}(\alpha, \beta)$. The density function is given by
 
