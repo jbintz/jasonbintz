@@ -13,9 +13,9 @@ tags: []
       \Gamma(\alpha)=\int_0^\infty x^{\alpha - 1}e^{-x} \, dx, \alpha > 0.
     \]
 
-    a.  Show that $\int_0^\infty x^{\alpha - 1}e^{-\beta x} \, dx=\frac{\Gamma(\alpha)}{\beta^\alpha}$ for $\alpha,\beta > 0$
+    a.  Show that $\int_0^\infty x^{\alpha - 1}e^{-\beta x} \, dx=\frac{\Gamma(\alpha)}{\beta^\alpha}$ for $\alpha,\beta > 0$. Hint: Use the substitution $u=\beta x$.
     
-    a.  Show that $\Gamma(\alpha + 1)=\alpha\Gamma(\alpha)$
+    a.  Show that $\Gamma(\alpha + 1)=\alpha\Gamma(\alpha)$.
 
 1.  Let $Z\sim\text{Gamma}(\alpha, \beta)$. The density function is given by
 
@@ -27,7 +27,7 @@ tags: []
 
     a.  $E(Z)=\frac{\alpha}{\beta}$
 
-    a.  $Var(Z)=\frac{\alpha}{\beta^2}$
+    a.  $Var(Z)=\frac{\alpha}{\beta^2}$. Hint: Use the fact that $Var(Z)=E(Z^2) - (E(Z))^2$. You can prove this fact for bonus points.
     
 1. Let $\mu=E(Z)$ and $\sigma^2=Var(Z)$. Show the following:
     
