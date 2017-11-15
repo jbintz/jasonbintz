@@ -40,6 +40,8 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 8 (Due Wednesday, November 8):** 3.3.1.afhjnoq, 3.3.3acd, 3.3.4, 3.3.5, 3.3.6
 
+**Problem Set 9 (Due Wednesday, November 22):** 3.5.11, 3.5.17g, 3.5.18abf
+
 ---------------------------------------------------------------------
 
 ## Exams {#exams}
