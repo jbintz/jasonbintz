@@ -42,6 +42,8 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 9 (Due Tuesday, November 21):** 3.5.11, 3.5.17g, 3.5.18abf
 
+**Problem Set 10 (Due Monday, December 4):** 3.6.1efi, 3.6.2d, 3.6.9bc, 3.6.10degk
+
 ---------------------------------------------------------------------
 
 ## Exams {#exams}
