@@ -9,18 +9,20 @@ image = "headers/bog_laurel_wide.jpg"
 ## Index
 
 [Course Resources](#resources)  
-[Assignments](#assn)  
+[Math 160 Assignments](#assn160)  
+[Math 161 Assignments](#assn161)  
 [Exams](#exams)  
 
 ---------------------------------------------------------------------
 
 ## Course Resources {#resources}
 
-[Syllabus](/courses/MATH160/syllabus/)
+[Math 160 Syllabus](/courses/MATH160/syllabus/)  
+[Math 161 Syllabus](/courses/MATH161/syllabus/)
 
 ---------------------------------------------------------------------
 
-## Assignments {#assn}
+## Math 160 Assignments {#assn160}
 
 **WebAssign:** WebAssign assignments will not be posted here.
 
@@ -43,6 +45,14 @@ image = "headers/bog_laurel_wide.jpg"
 **Problem Set 9 (Due Tuesday, November 21):** 3.5.11, 3.5.17g, 3.5.18abf
 
 **Problem Set 10 (Due Monday, December 4):** 3.6.1efi, 3.6.2d, 3.6.9bc, 3.6.10degk
+
+---------------------------------------------------------------------
+
+## Math 161 Assignments {#assn161}
+
+**WebAssign:** WebAssign assignments will not be posted here.
+
+**Problem Set 1 (Due ):** 
 
 ---------------------------------------------------------------------
 
