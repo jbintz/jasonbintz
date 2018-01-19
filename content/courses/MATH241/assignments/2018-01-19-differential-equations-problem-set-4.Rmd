@@ -1,0 +1,22 @@
+---
+title: 'Differential Equations: Problem Set 4'
+author: ''
+date: '2018-01-19'
+slug: differential-equations-problem-set-4
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  (**2.1**) 11, 14, 18, 20, 22
+
+1.  Solve the IVP: 
+
+    \[x'=x(4+x), x(0)=1\]
+    
+    Hint: use a partial fraction decomposition
+    
+1.  finish logistic growth problem begun in class

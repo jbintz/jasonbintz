@@ -35,10 +35,7 @@ image = "fruit-wide.jpg"
 
   - antiderivatives; handout distributed in class
 
-**Problem Set 4 (Due Friday, January 26):**
-
-  - (**2.1**) 11, 14, 18, 20, 22
-  - logistic growth problem begun in class
+[Problem Set 4: Due Friday, January 26](/courses/MATH241/assignments/differential-equations-problem-set-4/)
 
 
 ---------------------------------------------------------------------
