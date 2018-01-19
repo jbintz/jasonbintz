@@ -22,6 +22,23 @@ image = "fruit-wide.jpg"
 
 ## Assignments {#assn}
 
+**Problem Set 1 (Due Friday, January 12):**
+
+  - (**1.1**) 2, 4, 6, 8, 12, 14, 16, 20  
+  - (**1.2**) 2, 6, 8, 10
+  
+**Problem Set 2 (Due Friday, January 19):**
+
+  - (**2.2**) 10, 11, 12
+  
+**Problem Set 3 (Due Monday, January 22):**
+
+  - antiderivatives; handout distributed in class
+
+**Problem Set 4 (Due Friday, January 26):**
+
+  - (**2.1**) 11, 14, 18, 20, 22
+  - logistic growth problem begun in class
 
 
 ---------------------------------------------------------------------
