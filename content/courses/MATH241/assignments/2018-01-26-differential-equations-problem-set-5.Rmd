@@ -1,0 +1,71 @@
+---
+title: 'Differential Equations: Problem Set 5'
+author: ''
+date: '2018-01-26'
+slug: differential-equations-problem-set-5
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  Solve the nonlinear equation.
+
+    \[x'=(t+x)^2\]
+    
+    Hint: Transform it into a linear equation by making the substitution $y=t+x$.
+    
+1.  Solve the second-order equation.
+
+    \[x''+x'=3t\]
+    
+    Hint: Transform it into a first-order linear equation by making the substitution $y=x'$.
+    
+1.  Consider the first-order linear ODE, 
+
+    \[x'+p(t)x=q(t)\]
+
+    a.  Let $x_1(t)$ and $x_2(t)$ be solutions. Show that $x_1(t) + x_2(t)$ is a solution if and only if $q(t)\equiv 0$.
+    
+    b.  Now suppose that $x_1(t)$ is a solution and $x_2(t)$ is a solution to the homogeneous problem $x'+p(t)x=0$. Show that $x_1(t) + x_2(t)$ is a solution.
+    
+
+1.  Initially a tank has 60 gallons of water. A brine solution with 1 pound of salt per gallon enters the (continuously stirred and well mixed) tank at a rate of 2 gallons per minute. Solution leaves the tank at a rate of 3 gallons per minute. Find an equation that gives the amount of salt in the tank at time t for all times beginning at the initial time up until the tank is empty.
+
+1.  A differential equation of the form 
+
+    \[x'=a(t)x+g(t)x^n\]
+    
+    is called a **Bernoulli equation**. 
+    
+    a.  Show that a Bernoulli equation can be transformed into a linear equation by making the substitution $y=x^{1-n}$ and then find a formula for the solution.
+    
+    a.  Solve: $x'=\frac{2}{3t}x+\frac{2t}{x}$
+    
+    a.  Solve: $t^2x'+2tx-x^3=0$
+
+1.  The following are two different generalizations of the logistic differential equation. Do you see why? In each case, solve the equations. Hint: they are Bernoulli equations.
+
+    a.  $N'=r(t)N\left(1-\frac{N}{K}\right)$
+    
+    a.  $N'=rN\left(1-\frac{N}{K(t)}\right)$
+
+1.  (Bonus) The left hand side of the differential equation: 
+
+    \[M(t,x)+N(t,x)x'=0\]
+    
+    looks like it might be a total derivative. It is a total derivative if there exists a function $\psi (t,x)$ such that,
+    
+    \[\frac{d}{dt}\psi (t,x)=M(t,x)+N(t,x)x'.\]
+    
+    If we can find such a function, then the differential equation above is called an **exact equation** and we would have that:
+    
+    \[\frac{d}{dt}\psi (t,x)=0,\]
+    
+    which implies that the solution to the equation is given implicitly by $\psi (t,x)=C$.
+    
+    a.  Show that $M(t,x)+N(t,x)x'=0$ is exact if and only if $M_x$ = $N_t$.
+    
+    a.  Solve: $t^3+\frac{x}{t}+(x^2+\ln t)x'=0$
