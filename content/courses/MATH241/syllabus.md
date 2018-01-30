@@ -69,7 +69,7 @@ The successful student will:
 
 ## Exams {#exams}
 
-There will be two exams during the semester as well as a final exam. These may consist of either or both an in-class and take-home component. The in-class component may consist of either or both an individual and group component. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+There will be two exams during the semester as well as a final exam. These may consist of either or both an in-class and take-home component. The in-class component may consist of either or both an individual and group component. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The final exam is scheduled for Friday, May 4 from 8 to 10 a.m. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
 
 [**Return to Index**](#top)
 
