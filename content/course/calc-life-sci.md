@@ -52,7 +52,7 @@ image = "headers/bog_laurel_wide.jpg"
 
 **WebAssign:** WebAssign assignments will not be posted here.
 
-**Problem Set 1 (Due ):** 
+**Problem Set 1 (Due Wednesday, February 7):** Chapter 4 Exercises (starts on page 168): 4.1bhjk; Chapter 5 Exercises (starts on page 215): 5.1abdhjl, 5.4, 5.8
 
 ---------------------------------------------------------------------
 
