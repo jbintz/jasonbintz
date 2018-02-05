@@ -39,6 +39,8 @@ image = "fruit-wide.jpg"
 
 [Problem Set 5: Due Friday, February 2](/courses/MATH241/assignments/differential-equations-problem-set-5/)
 
+[Problem Set 6: Due Friday, February 9](/courses/MATH241/assignments/differential-equations-problem-set-6/)
+
 
 ---------------------------------------------------------------------
 

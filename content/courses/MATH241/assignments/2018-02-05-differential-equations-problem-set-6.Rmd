@@ -1,0 +1,22 @@
+---
+title: 'Differential Equations: Problem Set 6'
+author: ''
+date: '2018-02-05'
+slug: differential-equations-problem-set-6
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  Finish the in-class bifurcation exercises.
+
+1.  (**2.7**) 2, 4, 8, 10
+
+1.  For each of the following, find the equilibria, determine their stability and produce a bifurcation diagram. Include appropriate sentences summarizing the various cases.
+
+    a.  $x' = (x-1)(x-h)$
+    
+    a.  $x'= x(1 - x) ^ 2 + \alpha$
