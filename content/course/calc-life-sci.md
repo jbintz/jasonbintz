@@ -54,6 +54,8 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 1 (Due Wednesday, February 7):** Chapter 4 Exercises (starts on page 168): 4.1bhjk; Chapter 5 Exercises (starts on page 215): 5.1abdhjl, 5.4, 5.8
 
+**Problem Set 2 (Due Wednesday, February 14):** 6.1: 1cdfhi, 2bikn, 10, 11, 20
+
 ---------------------------------------------------------------------
 
 ## Exams {#exams}
