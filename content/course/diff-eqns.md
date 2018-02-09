@@ -10,6 +10,7 @@ image = "fruit-wide.jpg"
 
 [Course Resources](#resources)  
 [Assignments](#assn)  
+[Activities](#act)  
 [Exams](#exams)  
 
 ---------------------------------------------------------------------
@@ -43,5 +44,13 @@ image = "fruit-wide.jpg"
 
 
 ---------------------------------------------------------------------
+
+## Activities {#act}
+
+[Flu Dynamics](/courses/MATH241/activities/flu-dynamics/)
+
+[Spruce Budworm Dynamics](/courses/MATH241/activities/spruce-budworm-dynamics/)
+
+-------------------------------------------
 
 ## Exams {#exams}

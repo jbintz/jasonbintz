@@ -1,0 +1,26 @@
+---
+title: Spruce Budworm Dynamics
+author: ''
+date: '2018-02-09'
+slug: spruce-budworm-dynamics
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Why does the budworm exhibit sudded outbreaks from low to high density and then collapse back down to low density? We investigate the budworm dynamics in this activity.
+
+Consider the state equation:
+
+\[N'=rN\left(1-\frac{N}{K}\right)-\frac{BN^2}{A^2+N^2}\]
+
+1.  Explain the terms. What could they reasonably model?
+
+1.  We will non-dimensionalize this equation. First let $x=\frac{N}{A}$, substitute, and simplify. Then make the substitution $\tau = \frac{t}{A/B}$. Finally, let $k=\frac{K}{A}$ and $\rho=\frac{rA}{B}$.
+
+1.  Find equilibria and determine stability.
+
+1.  To be continued!

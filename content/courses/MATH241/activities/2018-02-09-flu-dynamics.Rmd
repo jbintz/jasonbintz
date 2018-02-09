@@ -1,0 +1,24 @@
+---
+title: Flu Dynamics
+author: ''
+date: '2018-02-09'
+slug: flu-dynamics
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+It's flu season in Houghton! In this activity you will analyze the dynamics of infection for a flu epidemic.
+
+Individuals are classified with respect to disease status. In this case, you either have the flu or you are susceptible to getting the flu.
+
+1.  Let $S(t)$ be the number of susceptible individuals at time $t$, and let $I(t)$ be the number of infected individuals at time $t$. Write a pair of state equations, one for susceptible and one for infected individuals. Assume that the per capita rate of infection is proportional to the number of infected individuals and that the per capita rate of recovery is constant.
+
+1.  Show that these equations imply a constant total population size. What would that size be at Houghton?
+
+1.  Use the information from the previous question to eliminate $S$ from your $I$ equation.
+
+1.  Determine the equilibria and stability. Describe how the disease evolves from a small number of infected individuals. Will the disease persist? At what level?
