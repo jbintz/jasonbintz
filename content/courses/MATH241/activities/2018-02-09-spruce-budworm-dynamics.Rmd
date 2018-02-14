@@ -19,8 +19,18 @@ Consider the state equation:
 
 1.  Explain the terms. What could they reasonably model?
 
-1.  We will non-dimensionalize this equation. First let $x=\frac{N}{A}$, substitute, and simplify. Then make the substitution $\tau = \frac{t}{A/B}$. Finally, let $k=\frac{K}{A}$ and $\rho=\frac{rA}{B}$.
+1.  Nondimensionalize this equation. First let $x=\frac{N}{A}$, substitute, and simplify. Then make the substitution $\tau = \frac{t}{A/B}$. Finally, let $k=\frac{K}{A}$ and $\rho=\frac{rA}{B}$ to obtain the nondimensionalized equation:
 
-1.  Find equilibria and determine stability.
+    \[x'=\rho x \left(1-\frac{x}{k}\right)-\frac{x^2}{1+x^2}\]
 
-1.  To be continued!
+1.  The nonzero equilibria are solutions of
+
+    \[\rho\left(1-\frac{\bar x}{k}\right)=\frac{\bar x}{1+\bar{x}^2}.\]
+    
+    This equation can have one, two, or three solutions. Draw a picture illustrates this. Then draw a phase line for each of the five possible scenarios.
+    
+1.  In addition to the condition above, when there are two solutions, $\rho$ and $k$ satisfy another condition. What is it? Use these conditions to find expressions in $x$ for both $\rho$ and $k$. That is, find $\rho = \rho (x)$ and $k=k(x)$.
+
+1.  Plot $\rho$ vs. $k$ and label the resulting regions as "refuge", "bistable", or "outbreak".
+
+1.  Suppose that increasing foliage effectively increases $\rho$. Describe how the dynamics of this equation can describe the situation of a budworm outbreak.
