@@ -11,7 +11,8 @@ image = "headers/bog_laurel_wide.jpg"
 [Course Resources](#resources)  
 [Math 160 Assignments](#assn160)  
 [Math 161 Assignments](#assn161)  
-[Exams](#exams)  
+[Exams](#exams160)  
+[Exams](#exams161)  
 
 ---------------------------------------------------------------------
 
@@ -54,11 +55,19 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 1 (Due Wednesday, February 7):** Chapter 4 Exercises (starts on page 168): 4.1bhjk; Chapter 5 Exercises (starts on page 215): 5.1abdhjl, 5.4, 5.8
 
-**Problem Set 2 (Due Wednesday, February 14):** 6.1: 1cdfhi, 2bikn, 10, 11, 20
+**Problem Set 2 (Due Wednesday, February 14):** 6.1: 1cdfhi, 2bikn, 10, 11
+
+**Problem Set 3 (Due Friday, February 23):** 8.1: 1, 5fghj; 8.2: 5, 9, 18, 21
 
 ---------------------------------------------------------------------
 
-## Exams {#exams}
+## Math 160 Exams {#exams160}
 
 Exam 1: Friday, October 6 (covers Ch. 1)  
 Exam 2: Friday, November 10 (covers all of Ch. 2, 3.1 and 3.2)  
+
+------------------------------------------
+
+## Math 161 Exams {#exams161}
+
+Exam 1: Friday, February 16  
