@@ -42,6 +42,11 @@ image = "fruit-wide.jpg"
 
 [Problem Set 6: Due Friday, February 9](/courses/MATH241/assignments/differential-equations-problem-set-6/)
 
+**Problem Set 7 (Due Friday, March 9):**
+
+  - complete numerical methods worksheet
+  - (**2.6**) 2, 5, 6, 8, 10
+
 
 ---------------------------------------------------------------------
 
