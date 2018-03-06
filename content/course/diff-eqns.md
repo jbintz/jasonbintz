@@ -47,7 +47,7 @@ image = "fruit-wide.jpg"
   - complete numerical methods worksheet
   - (**2.6**) 2, 5, 6, 8, 10
 
-[Problem Set 8: Due Friday, March 9](/courses/MATH241/assignments/differential-equations-problem-set-8/)
+[Problem Set 8: Due Monday, March 12](/courses/MATH241/assignments/differential-equations-problem-set-8/)
 
 
 ---------------------------------------------------------------------
