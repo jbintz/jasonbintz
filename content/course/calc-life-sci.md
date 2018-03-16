@@ -61,6 +61,8 @@ image = "headers/bog_laurel_wide.jpg"
 
 **Problem Set 4 (Due Friday, March 9):** 8.4: 1, 9, 10
 
+**Problem Set 5 (Due Monday, March 19):** 10.4: 1, 2 (omit c), 3  
+
 ---------------------------------------------------------------------
 
 ## Math 160 Exams {#exams160}
