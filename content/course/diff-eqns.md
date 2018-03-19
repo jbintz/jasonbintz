@@ -58,7 +58,15 @@ image = "fruit-wide.jpg"
 **Problem Set 10 (Due Wednesday, March 21):**
 
   - (**3.4**) 8, 10, 12, 14, 16, 18, 20   
-  - complete the worksheet for section 3.5  
+  - complete the worksheet for section 3.5
+  
+**Problem Set 11 (Due Wednesday, March 28):**
+
+  - complete the worksheet for section 4.1
+  - (**4.1**) 4, 6, 8  
+  - (**4.2**) 8, 10, 12, 14, 16  
+  - (**4.3**) 2, 4, 6, 7, 8 
+  - (**4.4**) 4, 6, 10, 12  
 
 
 
