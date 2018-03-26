@@ -65,7 +65,6 @@ image = "fruit-wide.jpg"
   - complete the worksheet for section 4.1
   - (**4.1**) 4, 6, 8  
   - (**4.2**) 1-10, 12, 14, 16 
-  - complete worksheet for 4.3, 4.4
   - (**4.3**) 2, 4, 6, 7, 8 
   - (**4.4**) 4, 6, 10, 12  
 
