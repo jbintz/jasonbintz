@@ -16,18 +16,21 @@ knitr::opts_chunk$set(echo = TRUE)
     a.  $\lambda_1 + \lambda_2 =\text{trace}(A)$
     a.  $\lambda_1 \cdot \lambda_2  =\text{det}(A)$
     
-1.  Complete the table.
+1.  Consider the first order system $\mathbf{x}'=A\mathbf{x}$ where $A$ is a $2\times 2$ matrix and $\lambda_1, \lambda_2$ are eigenvalues of $A$. Recall that $\mathbf{x}=\mathbf{0}=(0,0)^{\text{T}}$ is always an equilibrium of this system. Complete the following table that summarizes the type and stability of this equilibrium in terms of the signs of the trace and determinant of $A$. 
 
     |Case|type|stability|$(\text{tr}A)^2-4\text{det}A$|$\text{det}(A)$|$\text{trace}A$|
     |:----:|:----:|:----:|:----:|:----:|:----:|
     |$\lambda_1 < \lambda_2 < 0$|sink|stable|+| | |
     |$0 < \lambda_1 < \lambda_2$| | | | | |
     |$\lambda_1 < 0 < \lambda_2$| | | | | |
-    |$\alpha\pm i\beta , \alpha = 0$| | | | | |
-    |$\alpha\pm i\beta , \alpha < 0$| | | | | |
-    |$\alpha\pm i\beta , \alpha\gt 0$| | | | | |
+    |$\lambda_{1,2}=\alpha\pm i\beta , \alpha = 0$| | | | | |
+    |$\lambda_{1,2}=\alpha\pm i\beta , \alpha < 0$| | | | | |
+    |$\lambda_{1,2}=\alpha\pm i\beta , \alpha\gt 0$| | | | | |
     
-1.  Using the information from the table, make a plot of $\text{det}(A)$ vs. $\text{trace}(A)$, labeling each region accordingly.
+1.  Using the information from the table: 
+
+    a.  Make a plot of $\text{det}(A)$ vs. $\text{trace}(A)$, labeling each region according to the type and stability of $(0,0)^{\text{T}}$.
+    a.  Finish the statement of this theorem: $(0,0)^{\text{T}}$ is (asymptotically) stable if and only if ________ and __________ .
 
 1.  **(5.1)** 2, 4  
     **(5.2)** 1-12
