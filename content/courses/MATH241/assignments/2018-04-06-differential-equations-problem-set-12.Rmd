@@ -11,12 +11,12 @@ tags: []
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1.  Let $A$ be a $2\times 2$ matrix and let $\lambda_1, \lambda_2$ be eigenvalues of $A$. Show that:
+1.  Let $A$ be a $2\times 2$ matrix (of constants) and let $\lambda_1, \lambda_2$ be eigenvalues of $A$. Show that:
 
     a.  $\lambda_1 + \lambda_2 =\text{trace}(A)$
     a.  $\lambda_1 \cdot \lambda_2  =\text{det}(A)$
     
-1.  Consider the first order system $\mathbf{x}'=A\mathbf{x}$ where $A$ is a $2\times 2$ matrix and $\lambda_1, \lambda_2$ are eigenvalues of $A$. Recall that $\mathbf{x}=\mathbf{0}=(0,0)^{\text{T}}$ is always an equilibrium of this system. Complete the following table that summarizes the type and stability of this equilibrium in terms of the signs of the trace and determinant of $A$. 
+1.  Consider the first order linear system $\mathbf{x}'=A\mathbf{x}$ where $A$ is a $2\times 2$ matrix and $\lambda_1, \lambda_2$ are eigenvalues of $A$. Recall that $\mathbf{x}=\mathbf{0}=(0,0)^{\text{T}}$ is always an equilibrium of this system. Complete the following table that summarizes the type and stability of this equilibrium in terms of the signs of the trace and determinant of $A$. 
 
     |Case|type|stability|$(\text{tr}A)^2-4\text{det}A$|$\text{det}(A)$|$\text{trace}A$|
     |:----:|:----:|:----:|:----:|:----:|:----:|
