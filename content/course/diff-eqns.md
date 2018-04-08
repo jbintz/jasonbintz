@@ -68,7 +68,7 @@ image = "fruit-wide.jpg"
   - (**4.3**) 2, 4, 6, 7, 8 
   - (**4.4**) 4, 6, 10, 12  
 
-[Problem Set 12: Due Monday, April 9](/courses/MATH241/assignments/differential-equations-problem-set-12/)  
+[Problem Set 12: Due Wednesday, April 11](/courses/MATH241/assignments/differential-equations-problem-set-12/)  
 
 ---------------------------------------------------------------------
 
