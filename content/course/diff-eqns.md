@@ -72,12 +72,9 @@ image = "fruit-wide.jpg"
 
 **Problem Set 13 (Due Wednesday, April 18):**
 
-  - Relationship Dynamics Handout  
+  - Relationship Dynamics Handout
   
-**Problem Set 14 (Due Friday, April 20):**
-
-  - (**5.3**) TBD
-  - TBD
+[Problem Set 14: Due Friday, April 20](/courses/MATH241/assignments/differential-equations-problem-set-14/)  
 
 ---------------------------------------------------------------------
 

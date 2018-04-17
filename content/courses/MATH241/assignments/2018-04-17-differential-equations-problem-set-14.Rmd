@@ -1,0 +1,33 @@
+---
+title: 'Differential Equations: Problem Set 14'
+author: ''
+date: '2018-04-17'
+slug: differential-equations-problem-set-14
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  Problems 5.3.2, 5.3.4 on page 202.
+
+1.  In the last part of problem 5.3.4, you produced a phase plane by hand and then used pplane for comparison. It looks like the equilibrium is a center and that the trajectories are closed periodic orbits. 
+
+    a.  But Hartman-Grobman is inconclusive in this case. Why?
+    a.  Prove that the trajectories are, in fact, closed periodic orbits. 
+    
+1.  Consider the following system:
+
+    \[
+      \begin{align*}
+        N' &= 0.4N(1-N)-0.2NP_1-0.2NP_2 \\
+        P_1' &= 0.5NP_1-0.2P_1 \\
+        P_2' &= 0.4NP_2-0.05P_1P_2-0.1P_2
+      \end{align*}
+    \]
+    
+    a.  Find all the equilibria, $(\bar{N},\bar{P_1},\bar{P_2})$.
+    a.  In terms of predators and prey, what do these equations model?
+    a.  Is there any (long-term) scenario where the three species can coexist? Explain.
