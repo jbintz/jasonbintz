@@ -76,6 +76,8 @@ image = "fruit-wide.jpg"
   
 [Problem Set 14: Due Friday, April 20](/courses/MATH241/assignments/differential-equations-problem-set-14/)  
 
+[Problem Set 15: Due Wednesday, April 25](/courses/MATH241/assignments/differential-equations-problem-set-15/)  
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}

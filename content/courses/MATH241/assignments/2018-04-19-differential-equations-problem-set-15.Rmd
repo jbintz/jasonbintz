@@ -1,0 +1,55 @@
+---
+title: 'Differential Equations: Problem Set 15'
+author: ''
+date: '2018-04-19'
+slug: differential-equations-problem-set-15
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  This is one of the problems we began working on in class. Consider the predator-prey system:
+
+    \[
+      \begin{align*}
+        N' &= rN\left(1-\frac{N}{K}\right)-\alpha NP \\
+        P' &= \beta\alpha NP-\mu P,
+      \end{align*}
+    \]
+    
+    where each of the four parameters is assumed positive.
+    
+    a.  Find the (three) equilibria and analyze their stability which will, in general, depend on the parameters.
+    
+    a.  Construct "typical" phase planes by hand. In this case, you will need to construct two of them. 
+    
+    a.  Consider the Jacobian evaluated at the positive equilibrium. Write the determinant as a function of the trace and then plot this relationship in the trace-determinant plane.
+    
+    a.  Draw circles to indicate where on this curve the equilibrium changes from type to another. There are two such places. There is also one limiting case that should be included. Indicate what values of K these points represent. Summarize the meaning of this curve.
+    
+    a.  Finally, use your work above to analyze this specific case:
+    
+        \[
+          \begin{align*}
+            N' &= 4N\left(1-\frac{N}{K}\right)-2 NP \\
+            P' &= NP-P.
+          \end{align*}
+         \]
+         
+         Use pplane to generate three cases that demonstrate the range of possibilities.
+         
+1.  Analyze the Lotka-Volterra competition model:
+
+    \[
+      \begin{align*}
+        N_1' &= r_1N_1\left(1-\frac{N_1+\alpha_{12}N_2}{K_1}\right)\\
+        N_2' &= r_2N_2\left(1-\frac{N_2+\alpha_{21}N_1}{K_2}\right).
+      \end{align*}
+    \]
+    
+    Follow the same steps as the previous problem. Is stable coexistence possible?
+
+1.  Problem 5.4.2 on page 210 of the textbook.
