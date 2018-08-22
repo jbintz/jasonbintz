@@ -1,5 +1,5 @@
 +++
-title = 'Syllabus: Differential Equations'
+title = 'Syllabus: Mathematical Modeling'
 highlight = 'FALSE'
 weight = 222003
 +++
@@ -31,7 +31,7 @@ E-Mail: jason.bintz@houghton.edu
 
 ## Course Description {#description}
 
-This is a first course in ordinary differential equations. Liberal Arts.
+This is a first course in mathematical modeling. Prerequisite: MATH 241. Liberal Arts.
 
 [**Return to Index**](#top)
 
@@ -39,7 +39,7 @@ This is a first course in ordinary differential equations. Liberal Arts.
 
 ## Textbook {#text}
 
-*Ordinary Differential Equations: From Calculus to Dynamical Systems*, Virginia Noonburg, MAA Textbook Series
+*A Primer of Ecology, 4th ed.*, Nicholas Gotelli, Sinauer
 
 [**Return to Index**](#top)
 
@@ -47,7 +47,7 @@ This is a first course in ordinary differential equations. Liberal Arts.
 
 ## Calculator/Software {#calc}
 
-In class, we will sometimes use [Desmos](https://www.desmos.com), an online graphing calculator. Sometimes a calculator (TI-83, 84 or similar) may be useful, but you may not use a CAS (TI-89/Inspire or similar) or cell-phone. We will also use scientific software (DFIELD, PPLANE, and R) in this course. You can download the jar files for DFIELD and PPLANE by going to [http:// math.rice.edu/~dfield/](http://math.rice.edu/~dfield/) and navigating to the java versions from there.
+In class, we will sometimes use [Desmos](https://www.desmos.com), an online graphing calculator. Sometimes a calculator (TI-83, 84 or similar) may be useful, but you may not use a CAS (TI-89/Inspire or similar) or cell-phone. We will also use scientific software (DFIELD, PPLANE, and R) in this course. You can download the jar files for DFIELD and PPLANE by going to [http:// math.rice.edu/~dfield/](http://math.rice.edu/~dfield/) and navigating to the java versions from there. Further instructions on installing RStudio will be given in class.
 
 [**Return to Index**](#top)
 
@@ -57,11 +57,10 @@ In class, we will sometimes use [Desmos](https://www.desmos.com), an online grap
 
 The successful student will:
 
-- understand the terminology relevant to ordinary differential equations (ODEs)
-- explain and demonstrate how ODEs are used to model certain phenomena
-- explain and demonstrate when ODEs are appropriate for modeling certain phenomena
-- identify and explain the assumptions of an ODE model
-- employ analytical, numerical, and qualitative techniques for analyzing first and second order differential equations as well as linear systems
+- understand the terminology relevant to mathematical modeling
+- explain and demonstrate how to model certain phenomena
+- identify and explain the assumptions of a model
+- employ analytical, numerical, and qualitative techniques for analyzing models
 
 [**Return to Index**](#top)
 
@@ -69,7 +68,7 @@ The successful student will:
 
 ## Exams {#exams}
 
-There will be two exams during the semester as well as a final exam. These may consist of either or both an in-class and take-home component. The in-class component may consist of either or both an individual and group component. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The final exam is scheduled for Wednesday, December 12 from 8 to 10 a.m. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+There will be a midterm and final exam. These may consist of either or both an in-class and take-home component. The in-class component may consist of either or both an individual and group component. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The final exam is scheduled for Tuesday, December 11 from 1:30 to 3:30 p.m. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
 
 [**Return to Index**](#top)
 
@@ -101,7 +100,7 @@ You are expected to be present and actively engaged for each class meeting.
 
 ## Grading {#grading}
 
-Homework will be worth around 55% of your grade, participation 5%, exams 20%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
+Homework will be worth around 55% of your grade, participation 10%, midterm exam 15%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
 
 | | | | | | | | |
 |:------|:------|:------|:------|:------|:------|:------|:------|

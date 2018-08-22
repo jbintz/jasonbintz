@@ -1,5 +1,5 @@
 +++
-title = 'Syllabus: Calculus for the Life Sciences'
+title = 'Syllabus: Mathematics for the Life Sciences'
 highlight = 'FALSE'
 weight = 222003
 +++
@@ -29,7 +29,7 @@ E-Mail: jason.bintz@houghton.edu
 
 ## Course Description {#description}
 
-This is the first course of a two course sequence providing an introduction to a variety of mathematical topics used in analyzing problems in the life sciences. Topics include sequences, linear discrete-time models and equilibria, limits, continuity, derivatives, optimization, modeling with ordinary differential equations, exponential models and equilibria; scientific software will be used throughout the course. IS - Creation: Math. Fulfills General Education Mathematics requirement. Liberal Arts.
+This course is an introduction to a variety of mathematical topics that are relevant for analyzing problems in the life sciences and provides the mathematical background required for Calculus for the Life Sciences or Calculus I. Topics include descriptive statistics, linear regression, exponential and logarithmic functions, difference equations, matrix algebra, and basic discrete probability theory. Scientific software will be used throughout the course. Satisfies IS – Creation: Math. Fulfills General Education Mathematics requirement. Liberal Arts. Students who received an SAT Math score of 550 or lower or equivalent who need to take Calculus for the Life Sciences or Calculus I must complete this course. 
 
 [**Return to Index**](#top)
 
@@ -37,7 +37,7 @@ This is the first course of a two course sequence providing an introduction to a
 
 ## Textbook {#text}
 
-*Calculus for the Life Sciences: A Modeling Approach*, James L. Cornette and Ralph A. Ackerman, MAA Textbooks
+*Mathematics for the Life Sciences*, Erin N. Bodine, Suzanne Lenhart, and Louis J. Gross , Princeton University Press
 
 [**Return to Index**](#top)
 
