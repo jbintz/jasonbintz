@@ -69,7 +69,7 @@ The successful student will:
 
 ## Exams {#exams}
 
-There will be two exams during the semester as well as a final exam. These may consist of either or both an in-class and take-home component. The in-class component may consist of either or both an individual and group component. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The final exam is scheduled for Friday, May 4 from 8 to 10 a.m. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+There will be two exams during the semester as well as a final exam. These may consist of either or both an in-class and take-home component. The in-class component may consist of either or both an individual and group component. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The final exam is scheduled for Wednesday, December 12 from 8 to 10 a.m. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
 
 [**Return to Index**](#top)
 
@@ -78,8 +78,6 @@ There will be two exams during the semester as well as a final exam. These may c
 ## Homework {#homework}
 
 **Problem Sets**: There will be several problem sets assigned throughout the semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
-
-**In-class Exercises**: I anticipate many classes consisting of workshop-like labs. These will count towards the homework grade. Whatever is not completed during class, you will have to complete outside of class.
 
 [**Return to Index**](#top)
 
