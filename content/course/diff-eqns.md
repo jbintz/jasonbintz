@@ -8,16 +8,21 @@ image = "fruit-wide.jpg"
 
 ## Index
 
-[Course Resources](#resources)  
+[Syllabus](#syllabus)  
+[Schedule](#schedule)  
 [Assignments](#assn)  
 [Activities](#act)  
 [Exams](#exams)  
 
 ---------------------------------------------------------------------
 
-## Course Resources {#resources}
+## Syllabus {#syllabus}
 
-[Syllabus](/courses/MATH241/syllabus/)  
+Syllabus is [here](/courses/MATH241/syllabus/).  
+
+---------------------------------------------------------------------
+
+## Schedule {#schedule}
 
 ---------------------------------------------------------------------
 
