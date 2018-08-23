@@ -1,5 +1,5 @@
 +++
-title = "Differential Equations"
+title = "Math 241: Differential Equations"
 image_preview = "lg-pitcher.jpg"
 tags = ["diff-eqns"]
 [header]

@@ -1,5 +1,5 @@
 +++
-title = "Mathematical Modeling"
+title = "Math 341: Mathematical Modeling"
 image_preview = "pitcher-fruit.jpg"
 tags = ["modeling"]
 [header] 

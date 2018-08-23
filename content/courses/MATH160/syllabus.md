@@ -45,7 +45,7 @@ This course is an introduction to a variety of mathematical topics that are rele
 
 ## Calculator {#calc}
 
-We will make extensive use of [Desmos](https://www.desmos.com), an online graphing calculator. You will also need a TI-83 or TI-84 graphing calculator since Desmos will not be available to you for quizzes and tests. There may be quizzes and/or tests where the use of a calculator will not be permitted.
+We will sometimes use [Desmos](https://www.desmos.com), an online graphing calculator. A calculator (TI-83, 84 or similar) may be useful, but you may not use a CAS (TI-89/Inspire or similar) or cell-phone. We will also use scientific software (RStudio) in this course. Further instructions on installing RStudio will be given in class.
 
 [**Return to Index**](#top)
 

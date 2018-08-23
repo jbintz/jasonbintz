@@ -1,5 +1,5 @@
 +++
-title = "Mathematics for the Life Sciences"
+title = "Math 160: Mathematics for the Life Sciences"
 image_preview = "sundew.jpg"
 tags = ["math-life-sci"]
 [header]

@@ -1,5 +1,5 @@
 +++
-title = "Numerical Methods"
+title = "Math 395: Numerical Methods"
 image_preview = "mosquito.jpg"
 tags = ["num-meth"]
 [header]

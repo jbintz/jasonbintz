@@ -1,5 +1,5 @@
 +++
-title = "Probability and Statistics"
+title = "Math 333: Probability and Statistics"
 image_preview = "sundew.jpg"
 tags = ["prob-stat"]
 [header]

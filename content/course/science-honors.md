@@ -1,5 +1,5 @@
 +++
-title = "Science Honors"
+title = "INTS 150: Science Honors"
 image_preview = "pitcher-fruit.jpg"
 # tags can be used for filtering courses
 # Example: `tags = ["machine-learning", "deep-learning"]`

@@ -1,5 +1,5 @@
 +++
-title = "Calculus for the Life Sciences"
+title = "Math 161: Calculus for the Life Sciences"
 image_preview = "bog_laurel.jpg"
 tags = ["calc-life-sci"]
 [header]
