@@ -24,6 +24,12 @@ Syllabus is [here](/courses/MATH160/syllabus/).
 
 ## Schedule {#schedule}
 
+The following schedule is tentative and will be updated periodically.  
+
+|    	| Date | Topics	| Text |
+|-------------|--------	|------- |------- |
+|  | 8-27 	|	| |
+
 ---------------------------------------------------------------------
 
 ## Assignments {#assn}

@@ -100,7 +100,7 @@ You are expected to be present and actively engaged for each class meeting.
 
 ## Grading {#grading}
 
-Homework will be worth around 55% of your grade, participation 10%, midterm exam 15%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
+Homework will be worth around 50% of your grade, participation 10%, midterm exam 20%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
 
 | | | | | | | | |
 |:------|:------|:------|:------|:------|:------|:------|:------|

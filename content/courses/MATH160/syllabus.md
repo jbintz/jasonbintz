@@ -17,6 +17,7 @@ E-Mail: jason.bintz@houghton.edu
 [Textbook](#text)  
 [Calculator](#calc)  
 [Exams](#exams)  
+[Quizzes](#quiz)  
 [Homework](#homework)  
 [Homework Guidelines](#guidelines)  
 [Grading](#grading)  
@@ -45,7 +46,7 @@ This course is an introduction to a variety of mathematical topics that are rele
 
 ## Calculator {#calc}
 
-We will sometimes use [Desmos](https://www.desmos.com), an online graphing calculator. A calculator (TI-83, 84 or similar) may be useful, but you may not use a CAS (TI-89/Inspire or similar) or cell-phone. We will also use scientific software (RStudio) in this course. Further instructions on installing RStudio will be given in class.
+In class, we will make extensive use of [Desmos](https://www.desmos.com), an online graphing calculator. Use of Desmos, however, will not be permitted during quizzes and tests. Use of a calculator (TI-83, 84 or similar) is permitted, but you may not use a CAS (TI-89/Inspire or similar) or cell-phone. There may be tests and quizzes where the use of a calculator will not be permitted.
 
 [**Return to Index**](#top)
 
@@ -53,7 +54,15 @@ We will sometimes use [Desmos](https://www.desmos.com), an online graphing calcu
 
 ## Exams {#exams}
 
-There will be three in-class exams during the semester. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+There will be three exams (one for each unit of the textbook) during the semester. There will also be a comprehensive final exam. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+
+[**Return to Index**](#top)
+
+------------------------------------------------------------------------
+
+## Quizzes {#quiz}
+
+There will be approximately five quizzes.
 
 [**Return to Index**](#top)
 
@@ -61,11 +70,7 @@ There will be three in-class exams during the semester. Make up exams will only 
 
 ## Homework {#homework}
 
-You will have two types of homework assignments:  
-
-**Problem Sets**: There will be approximately 10 problem sets assigned throughout the semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
-
-**WebAssign**: After (almost) every class, you will have a WebAssign assignment that must be completed before the next class period.
+There will be approximately 10-12 problem sets assigned throughout the semester. These will be posted on the course website. You are encouraged to talk to other students and the professor about the problems, but you must write your own solutions and acknowledge your collaborators at the top of your work. Solutions must be clear and neat. Do not make the mistake of thinking that understanding someone else’s solution means that you are able to do the problem yourself! Finding solutions on the internet and/or copying from another student’s work is strictly prohibited.
 
 [**Return to Index**](#top)
 
@@ -81,7 +86,7 @@ Homework must be neat–if your homework is illegible, it will not be graded! Yo
 
 ## Grading {#grading}
 
-Problem sets will be worth around 30% of your grade, WebAssign assignments 20%, exams 30%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
+Homework will be worth around 30% of your grade, quizzes 20%, exams 30%, and the final exam 20%. I reserve the right to change the grading distribution. Final letter grades will be assigned based on the scale below at a minimum (i.e., if you earn a 94% overall in the course, your final grade will be at least an A-): 
 
 | | | | | | | | |
 |:------|:------|:------|:------|:------|:------|:------|:------|
