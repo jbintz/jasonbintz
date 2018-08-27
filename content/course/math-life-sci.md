@@ -47,6 +47,12 @@ The following schedule is tentative and will be updated periodically.
 
 ## Assignments {#assn}
 
+**Problem Set 1 (Due Friday, August 31):**
+
+  - (**Ch.1 (1.4)**) 1.2-1.5, 1.10, 1.11  
+  - (**Ch.2 (2.6)**) 2.2-2.4, 2.7, 2.9, 2.10
+
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}

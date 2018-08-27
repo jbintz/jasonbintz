@@ -28,6 +28,12 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 
 ## Assignments {#assn}
 
+**Problem Set 1 (Due Friday, August 31):**
+
+  - (**1.1**) 2, 4, 6, 8, 12, 14, 16, 20  
+  - (**1.2**) 2, 6, 8, 10
+
+
 
 ---------------------------------------------------------------------
 
