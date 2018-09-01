@@ -9,14 +9,29 @@ image = "headers/bog_laurel_wide.jpg"
 ## Index
 
 [Syllabus](#syllabus)  
-[Schedule](#schedule)  
 [Assignments](#assn)  
+[Schedule](#schedule)  
 
 ---------------------------------------------------------------------
 
 ## Syllabus {#syllabus}
 
 Syllabus is [here](/courses/MATH160/syllabus/).  
+
+---------------------------------------------------------------------
+
+## Assignments {#assn}
+
+**Problem Set 1 (Due Friday, August 31):**
+
+  - (**Ch.1 (1.4)**) 1.2-1.5  
+  - (**Ch.2 (2.6)**) 2.2-2.4, 2.7, 2.9, 2.10  
+  
+**Problem Set 2 (Due Friday, September 7):**
+
+  - (**Ch.3 (3.6)**) 3.4, 3.5, 3.7  
+  - (**Ch.4 (4.6)**) 4.1, 4.2
+
 
 ---------------------------------------------------------------------
 
@@ -44,17 +59,3 @@ The following schedule is tentative and will be updated periodically.
 | Dec. 10-14 |  | Final Exam (10:30-12:30) |  |
 
 ---------------------------------------------------------------------
-
-## Assignments {#assn}
-
-**Problem Set 1 (Due Friday, August 31):**
-
-  - (**Ch.1 (1.4)**) 1.2-1.5  
-  - (**Ch.2 (2.6)**) 2.2-2.4, 2.7, 2.9, 2.10
-
-
----------------------------------------------------------------------
-
-## Activities {#act}
-
--------------------------------------------

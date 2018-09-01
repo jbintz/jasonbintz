@@ -35,7 +35,8 @@ Syllabus is [here](/courses/MATH241/syllabus/).
   
 **Problem Set 2 (Due Friday, September 7):**
 
-  - (**2.2**) 10, 11, 12
+  - (**2.2**) 10, 11, 12  
+  - antiderivatives; handout distributed in class
 
 
 
