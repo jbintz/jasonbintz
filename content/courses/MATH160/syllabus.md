@@ -54,7 +54,7 @@ In class, we will make extensive use of [Desmos](https://www.desmos.com), an onl
 
 ## Exams {#exams}
 
-There will be three exams (one for each unit of the textbook) during the semester. There will also be a comprehensive final exam. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
+There will be three exams (one for each unit of the textbook) during the semester. There will also be a comprehensive final exam. The final exam is scheduled for Wednesday, December 12 from 10:30 a.m. to 12:30 p.m. Make up exams will only be given in extenuating circumstances; prior arrangements must be made if at all possible. Do not make travel plans that require you to miss a scheduled exam. The college final exam schedule can be found [here](http://www.houghton.edu/registrar/final-exam-schedules/).
 
 [**Return to Index**](#top)
 

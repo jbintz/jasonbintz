@@ -31,7 +31,11 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 **Problem Set 1 (Due Friday, August 31):**
 
   - (**1.1**) 2, 4, 6, 8, 12, 14, 16, 20  
-  - (**1.2**) 2, 6, 8, 10
+  - (**1.2**) 2, 6, 8, 10  
+  
+**Problem Set 2 (Due Friday, September 7):**
+
+  - (**2.2**) 10, 11, 12
 
 
 

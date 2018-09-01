@@ -9,9 +9,9 @@ image = "fruit-wide.jpg"
 ## Index
 
 [Syllabus](#syllabus)  
-[Schedule](#schedule)  
 [Assignments](#assn)  
 [Activities](#act)  
+[Schedule](#schedule)  
 [Exams](#exams)  
 
 ---------------------------------------------------------------------
@@ -21,6 +21,22 @@ image = "fruit-wide.jpg"
 Syllabus is [here](/courses/MATH341/syllabus/).  
 
 ---------------------------------------------------------------------
+
+## Assignments {#assn}
+
+**Problem Set 1 (Due Tuesday, September 4):**
+
+  - Install R and RStudio on your computer. To do this, work through this brief [setup tutorial](https://jjallaire.shinyapps.io/learnr-tutorial-00-setup/).
+  
+  - Using the steps of the modeling process as a guide, describe your model and analysis of the optimal diet problem we did on the first day of class.
+  
+  - Complete the optimal residence time and optimal egg size problems handed out in class.
+
+---------------------------------------------------------------------
+
+## Activities {#act}
+
+-------------------------------------------
 
 ## Schedule {#schedule}
 
@@ -61,11 +77,3 @@ The following schedule is tentative and will be updated periodically.
 | | 12-11 | Final Exam |
 
 ---------------------------------------------------------------------
-
-## Assignments {#assn}
-
----------------------------------------------------------------------
-
-## Activities {#act}
-
--------------------------------------------
