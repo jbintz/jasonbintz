@@ -31,6 +31,14 @@ Syllabus is [here](/courses/MATH341/syllabus/).
   - Using the steps of the modeling process as a guide, describe your model and analysis of the optimal diet problem we did on the first day of class.
   
   - Complete the optimal residence time and optimal egg size problems handed out in class.
+  
+**Problem Set 2 (Due Thursday, September 13):**
+
+1. Complete exercises 1-11 on the Structured Population Growth worksheet. You don't have to submit these--just write a sentence indicating your progress on these.
+
+1. Read all of Ellner Chapter 2 (handout). In a **well-written** paragraph or two, summarize the chapter. Every word of your summary should be meaningful. Please do not simply sling out words, waiting until a paragraph's worth of them have accumulated. Your summary should emphasize the modeling aspects of the material rather than, say, the specific details of whatever scientific study is being used to illustrate these concepts.
+
+1. Complete the following problems from Ellner: 2.8, 2.9, 2.12-2.19.
 
 ---------------------------------------------------------------------
 
