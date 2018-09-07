@@ -1,5 +1,5 @@
 ---
-title: 'Differential Equations: Problem Set 4'
+title: 'Differential Equations: Problem Set 3'
 author: ''
 date: '2018-01-19'
 slug: differential-equations-problem-set-4
@@ -19,4 +19,6 @@ knitr::opts_chunk$set(echo = TRUE)
     
     Hint: use a partial fraction decomposition
     
-1.  finish logistic growth problem begun in class
+1.  Solve the logistic growth equation:
+
+    \[N'=rN\left(1-\frac{N}{K}\right), N(0)=N_0\]

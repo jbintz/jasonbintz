@@ -38,7 +38,7 @@ Syllabus is [here](/courses/MATH241/syllabus/).
   - (**2.2**) 10, 11, 12  
   - antiderivatives; handout distributed in class
 
-
+[Problem Set 3: Due Friday, September 14](/courses/MATH241/assignments/differential-equations-problem-set-4/)
 
 ---------------------------------------------------------------------
 
