@@ -42,6 +42,8 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 
 [Problem Set 4: Due Friday, September 14](/courses/MATH241/assignments/differential-equations-problem-set-5/)
 
+[Problem Set 5: Due Friday, September 21](/courses/MATH241/assignments/differential-equations-problem-set-6/)
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}

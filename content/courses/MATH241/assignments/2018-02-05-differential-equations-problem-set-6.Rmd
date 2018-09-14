@@ -1,5 +1,5 @@
 ---
-title: 'Differential Equations: Problem Set 6'
+title: 'Differential Equations: Problem Set 5'
 author: ''
 date: '2018-02-05'
 slug: differential-equations-problem-set-6
