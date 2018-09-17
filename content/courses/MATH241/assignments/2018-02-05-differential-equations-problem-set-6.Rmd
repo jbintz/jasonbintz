@@ -11,12 +11,20 @@ tags: []
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1.  Finish the in-class bifurcation exercises.
-
 1.  (**2.7**) 2, 4, 8, 10
 
 1.  For each of the following, find the equilibria, determine their stability and produce a bifurcation diagram. Include appropriate sentences summarizing the various cases.
 
+    a.  $x' = h - x^3$
+    
+    a.  $x' = hx - x^2$
+    
+    a.  $x' = (1-x)(x^2-h)$
+    
+    a.  $x' = (x-\sqrt{h})(3-hx)$
+    
+    a.  $x' = -(1+x)(x^2-h^2)$
+    
     a.  $x' = (x-1)(x-h)$
     
     a.  $x'= x(1 - x) ^ 2 + \alpha$
