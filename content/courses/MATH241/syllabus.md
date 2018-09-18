@@ -8,6 +8,7 @@ weight = 222003
 
 Jason Bintz  
 Office: Paine 209A  
+Office Hours: MWF 2:00-4:30  
 E-Mail: jason.bintz@houghton.edu  
 <https://jasonbintz.rbind.io> 
                                                       
