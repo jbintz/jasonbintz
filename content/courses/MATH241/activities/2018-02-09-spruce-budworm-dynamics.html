@@ -9,17 +9,21 @@ tags: []
 
 
 
-<p>Why does the budworm exhibit sudded outbreaks from low to high density and then collapse back down to low density? We investigate the budworm dynamics in this activity.</p>
-<p>Consider the state equation:</p>
-<p><span class="math display">\[N&#39;=rN\left(1-\frac{N}{K}\right)-\frac{BN^2}{A^2+N^2}\]</span></p>
+<p>Spruce budworms are a group of closely related insects in the genus <em>Choristoneura.</em> Most are significant pests of conifers, such as spruce.</p>
+<p>In eastern Cananda, in particular, the budworm attacks the leaves of the balsam fir tree. When an outbreak of this pest occurs, they can defoliate and kill most of the fir trees in the forest in about four years.</p>
+<p>Budworm outbreaks are characterized by a <em>sudden</em> (rather than a gradual) change from low to high population density followed by a sudden collapse back down to low density. Why? In this activity, we analyze a model of budworm dynamics that seeks to explain this phenomenon.</p>
+<p>Let <span class="math inline">\(N=N(t)\)</span> be the population density of the budworm at time <span class="math inline">\(t\)</span>. Consider the model,</p>
+<p><span class="math display">\[N&#39;=rN\left(1-\frac{N}{K}\right)-\frac{BN^2}{A^2+N^2},\]</span></p>
+<p>where <span class="math inline">\(r, K, A, B &gt; 0.\)</span></p>
 <ol style="list-style-type: decimal">
-<li><p>Explain the terms. What could they reasonably model?</p></li>
-<li><p>Nondimensionalize this equation. First let <span class="math inline">\(x=\frac{N}{A}\)</span>, substitute, and simplify. Then make the substitution <span class="math inline">\(\tau = \frac{t}{A/B}\)</span>. Finally, let <span class="math inline">\(k=\frac{K}{A}\)</span> and <span class="math inline">\(\rho=\frac{rA}{B}\)</span> to obtain the nondimensionalized equation:</p>
+<li><p>Explain the growth term (the first term on the right-hand side). What does it represent? What are <span class="math inline">\(r\)</span> and <span class="math inline">\(K\)</span>?</p></li>
+<li><p>The second term is a predation term. It’s similar to the harvest term we considered in the fishery problem but instead of a constant harvest rate <span class="math inline">\(H\)</span>, there is a feeding rate with maximum value <span class="math inline">\(B\)</span> that depends on the budworm density <span class="math inline">\(N\)</span>. Plot <span class="math inline">\(\frac{BN^2}{A^2+N^2}\)</span> vs <span class="math inline">\(N\)</span>. Explain how this might reasonably model predation.</p></li>
+<li><p>This model has four parameters. For our analysis, we’ll reduce this to two by nondimensionalizing. First let <span class="math inline">\(x=\frac{N}{A}\)</span>, substitute, and simplify. Then make the substitution <span class="math inline">\(\tau = \frac{t}{A/B}\)</span>. Finally, let <span class="math inline">\(k=\frac{K}{A}\)</span> and <span class="math inline">\(\rho=\frac{rA}{B}\)</span> to obtain the nondimensionalized equation:</p>
 <p><span class="math display">\[x&#39;=\rho x \left(1-\frac{x}{k}\right)-\frac{x^2}{1+x^2}\]</span></p></li>
-<li><p>The nonzero equilibria are solutions of</p>
-<p><span class="math display">\[\rho\left(1-\frac{\bar x}{k}\right)=\frac{\bar x}{1+\bar{x}^2}.\]</span></p>
-<p>This equation can have one, two, or three solutions. Draw a picture illustrates this. Then draw a phase line for each of the five possible scenarios.</p></li>
+<li><p>Finding algebraic formulae for the nonzero equilibria is a bit messy. It is, however, fairly straightforward to analyze the situation. Use a graph that makes it clear that there can be one, two, or three nonzero equilibria for this equation.</p></li>
+<li><p>For each of the <strong>five</strong> possible scenarios, draw a phase line and describe (with words!) what it indicates. (Don’t forget to include the zero equilibrium!) For three of the scenarios, use the words “refuge”, “bistable”, and “outbreak” in your description.</p></li>
 <li><p>In addition to the condition above, when there are two solutions, <span class="math inline">\(\rho\)</span> and <span class="math inline">\(k\)</span> satisfy another condition. What is it? Use these conditions to find expressions in <span class="math inline">\(x\)</span> for both <span class="math inline">\(\rho\)</span> and <span class="math inline">\(k\)</span>. That is, find <span class="math inline">\(\rho = \rho (x)\)</span> and <span class="math inline">\(k=k(x)\)</span>.</p></li>
-<li><p>Plot <span class="math inline">\(\rho\)</span> vs. <span class="math inline">\(k\)</span> and label the resulting regions as “refuge”, “bistable”, or “outbreak”.</p></li>
-<li><p>Suppose that increasing foliage effectively increases <span class="math inline">\(\rho\)</span>. Describe how the dynamics of this equation can describe the situation of a budworm outbreak.</p></li>
+<li><p>The functions for <span class="math inline">\(\rho\)</span> and <span class="math inline">\(k\)</span> from the previous exercise represent boundaries. Explain what I mean by this.</p></li>
+<li><p>Now plot these boundaries in <span class="math inline">\(\rho k\)</span> space; that is, plot <span class="math inline">\(\rho\)</span> vs. <span class="math inline">\(k\)</span> and label the resulting regions as “refuge”, “bistable”, or “outbreak”.</p></li>
+<li><p>Suppose that increasing foliage effectively increases <span class="math inline">\(\rho\)</span> and <span class="math inline">\(k\)</span>. Describe how the dynamics of this equation can describe the situation of a budworm outbreak. Start your description of the situation just after an outbreak, when the forest has collapsed so that <span class="math inline">\(\rho\)</span> and <span class="math inline">\(k\)</span> are low.</p></li>
 </ol>

@@ -48,6 +48,8 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 
 ## Activities {#act}
 
+[Spruce Budworm Dynamics](/courses/MATH241/activities/spruce-budworm-dynamics/)
+
 
 -------------------------------------------
 

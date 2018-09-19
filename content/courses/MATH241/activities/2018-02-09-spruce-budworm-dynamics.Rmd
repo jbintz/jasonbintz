@@ -11,26 +11,34 @@ tags: []
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Why does the budworm exhibit sudded outbreaks from low to high density and then collapse back down to low density? We investigate the budworm dynamics in this activity.
+Spruce budworms are a group of closely related insects in the genus *Choristoneura.* Most are significant pests of conifers, such as spruce. 
 
-Consider the state equation:
+In eastern Cananda, in particular, the budworm attacks the leaves of the balsam fir tree. When an outbreak of this pest occurs, they can defoliate and kill most of the fir trees in the forest in about four years.
 
-\[N'=rN\left(1-\frac{N}{K}\right)-\frac{BN^2}{A^2+N^2}\]
+Budworm outbreaks are characterized by a *sudden* (rather than a gradual) change from low to high population density followed by a sudden collapse back down to low density. Why? In this activity, we analyze a model of budworm dynamics that seeks to explain this phenomenon. 
 
-1.  Explain the terms. What could they reasonably model?
+Let $N=N(t)$ be the population density of the budworm at time $t$. Consider the model,
 
-1.  Nondimensionalize this equation. First let $x=\frac{N}{A}$, substitute, and simplify. Then make the substitution $\tau = \frac{t}{A/B}$. Finally, let $k=\frac{K}{A}$ and $\rho=\frac{rA}{B}$ to obtain the nondimensionalized equation:
+\[N'=rN\left(1-\frac{N}{K}\right)-\frac{BN^2}{A^2+N^2},\]
+
+where $r, K, A, B > 0.$
+
+1.  Explain the growth term (the first term on the right-hand side). What does it represent? What are $r$ and $K$?
+
+1.  The second term is a predation term. It's similar to the harvest term we considered in the fishery problem but instead of a constant harvest rate $H$, there is a feeding rate with maximum value $B$ that depends on the budworm density $N$. Plot $\frac{BN^2}{A^2+N^2}$ vs $N$. Explain how this might reasonably model predation. 
+
+1.  This model has four parameters. For our analysis, we'll reduce this to two by nondimensionalizing. First let $x=\frac{N}{A}$, substitute, and simplify. Then make the substitution $\tau = \frac{t}{A/B}$. Finally, let $k=\frac{K}{A}$ and $\rho=\frac{rA}{B}$ to obtain the nondimensionalized equation:
 
     \[x'=\rho x \left(1-\frac{x}{k}\right)-\frac{x^2}{1+x^2}\]
 
-1.  The nonzero equilibria are solutions of
-
-    \[\rho\left(1-\frac{\bar x}{k}\right)=\frac{\bar x}{1+\bar{x}^2}.\]
+1.  Finding algebraic formulae for the nonzero equilibria is a bit messy. It is, however, fairly straightforward to analyze the situation. Use a graph that makes it clear that there can be one, two, or three nonzero equilibria for this equation.
     
-    This equation can have one, two, or three solutions. Draw a picture illustrates this. Then draw a phase line for each of the five possible scenarios.
+1.  For each of the **five** possible scenarios, draw a phase line and describe (with words!) what it indicates. (Don't forget to include the zero equilibrium!) For three of the scenarios, use the words "refuge", "bistable", and "outbreak" in your description.
     
-1.  In addition to the condition above, when there are two solutions, $\rho$ and $k$ satisfy another condition. What is it? Use these conditions to find expressions in $x$ for both $\rho$ and $k$. That is, find $\rho = \rho (x)$ and $k=k(x)$.
+1.  In addition to the condition above, when there are two solutions, $\rho$ and $k$ satisfy another condition. What is it? Use these conditions to find expressions in $x$ for both $\rho$ and $k$. That is, find $\rho = \rho (x)$ and $k=k(x)$. 
 
-1.  Plot $\rho$ vs. $k$ and label the resulting regions as "refuge", "bistable", or "outbreak".
+1.  The functions for $\rho$ and $k$ from the previous exercise represent boundaries. Explain what I mean by this.
 
-1.  Suppose that increasing foliage effectively increases $\rho$. Describe how the dynamics of this equation can describe the situation of a budworm outbreak.
+1.  Now plot these boundaries in $\rho k$ space; that is, plot $\rho$ vs. $k$ and label the resulting regions as "refuge", "bistable", or "outbreak".
+
+1.  Suppose that increasing foliage effectively increases $\rho$ and $k$. Describe how the dynamics of this equation can describe the situation of a budworm outbreak. Start your description of the situation just after an outbreak, when the forest has collapsed so that $\rho$ and $k$ are low.
