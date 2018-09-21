@@ -35,6 +35,10 @@ Syllabus is [here](/courses/MATH160/syllabus/).
 **Problem Set 3 (Due Friday, September 21):**
 
   - (**Ch.5**) 5.2, 5.3abcfgh, 5.5, 5.6, 5.8, 5.9
+  
+**Problem Set 4 (Due Friday, September 28):**
+
+  - (**Ch.6**) 6.2, 6.4, 6.5, 6.6, 6.7, 6.9
 
 
 ---------------------------------------------------------------------

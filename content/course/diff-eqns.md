@@ -44,6 +44,10 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 
 [Problem Set 5: Due Friday, September 21](/courses/MATH241/assignments/differential-equations-problem-set-6/)
 
+**Problem Set 6 (Due Friday, September 28):**
+
+  - Spruce Budworm Activity: Questions 4 through 9.
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}
