@@ -40,6 +40,8 @@ Syllabus is [here](/courses/MATH341/syllabus/).
 
 1. Complete the following problems from Ellner: 2.8, 2.9, 2.12-2.19.
 
+[Problem Set 3: Due Friday, September 28](/courses/MATH341/assignments/mathematical-modeling-problem-set-3/)  
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}

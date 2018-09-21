@@ -1,0 +1,28 @@
+---
+title: 'Mathematical Modeling: Problem Set 3'
+author: ''
+date: '2018-09-21'
+slug: mathematical-modeling-problem-set-3
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.  (This is problem 2 from the Density Dependent Growth Worksheet.) Consider the difference equation, $x_{t+1}=rx_t(1-x_t)$, where $r>0.$ 
+
+    a.  Show that the conditions for survival in this case are $0<r<4$ and $0<x_0\leq 1$. 
+    
+    a.  Under these assumptions, show that there are two fixed points, $\bar{x}=0$ and $\bar{x}=\frac{r-1}{r}$. 
+    
+    a.  Show that the non-trivial steady-state is locally asymptotically stable only if $1<r<3$.
+    
+    a.  Find a range of values for $r$ for which there is a stable two-cycle. 
+    
+    a.  Choose some $2.57<r<3$ and show how the population trajectories are sensitive to initial conditions. This is the hallmark of deterministic chaos. The most straightforward way to illustrate this is with graphs. You may use Desmos or R.
+
+1.  Consider the difference equation, $x_{t+1}=x_t\ln x_t^2,$ where $x_t\neq 0$. Find the fixed points and analyze their stability.
+
+1.  Consider the difference equation, $x_{t+1}=x_te^{r(1-x_t/K)}.$ Find the fixed points and analyze their stability. Use cobwebbing to illustrate the results for a few different values of $r$ (I think there are at least four cases).
