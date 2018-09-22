@@ -58,3 +58,8 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 -------------------------------------------
 
 ## Exams {#exams}
+
+**Exam 1:**
+
+  - In-class component: Friday, September 28
+  - Take-home component: Due Monday, October 1 at 9:55 a.m.
