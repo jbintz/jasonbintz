@@ -39,6 +39,11 @@ Syllabus is [here](/courses/MATH160/syllabus/).
 **Problem Set 4 (Due Friday, September 28):**
 
   - (**Ch.6**) 6.2, 6.4, 6.5, 6.6, 6.7, 6.9
+  
+**Problem Set 5 (Due Friday, October 5):**
+
+  - (**Ch.7**) 7.4, 7.6, 7.7 (Use Desmos, not Matlab)
+  - (**Ch.8**) 8.6, 8.7, 8.8, 8.10
 
 
 ---------------------------------------------------------------------
