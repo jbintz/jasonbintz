@@ -47,6 +47,16 @@ Syllabus is [here](/courses/MATH241/syllabus/).
 **Problem Set 6 (Due Friday, September 28):**
 
   - Spruce Budworm Activity: Questions 4 through 9.
+  
+**Problem Set 7 (Due Wednesday, October 10):**
+
+  1.  Use Desmos to make a plot just like Figure 2.14 on page 61 of the textbook. What does this illustrate?
+  
+  1.  Same thing but using Trapezoid Method.
+  
+  1.  Same thing but using Improved or Modified Euler Method.
+  
+  1.  Now make a plot that compares the three methods for the same problem. Use h = 0.25
 
 ---------------------------------------------------------------------
 
