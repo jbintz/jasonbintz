@@ -57,6 +57,15 @@ Syllabus is [here](/courses/MATH241/syllabus/).
   1.  Same thing but using Improved or Modified Euler Method.
   
   1.  Now make a plot that compares the three methods for the same problem. Use h = 0.25
+  
+**Problem Set 8 (Due Wednesday, October 17):**
+
+  - complete the worksheet for section 3.2 and hand in problems 14-26:
+    - one copy per group is sufficient
+    - write each group member's name on the submission
+    - it is ok if your submission contains pictures of your boardwork as long as they are legible and orderly 
+    - no electronic submissions!
+  - (**3.2**) 2, 4, 6, 10, 12 
 
 ---------------------------------------------------------------------
 
