@@ -66,6 +66,11 @@ Syllabus is [here](/courses/MATH241/syllabus/).
     - it is ok if your submission contains pictures of your boardwork as long as they are legible and orderly 
     - no electronic submissions!
   - (**3.2**) 2, 4, 6, 10, 12 
+  
+**Problem Set 9 (Due Friday, October 26):**
+
+  - (**3.3**) 2, 4, 6, 8, 10, 12  
+  - (**3.4**) 8, 10, 12, 14, 16, 18, 20 
 
 ---------------------------------------------------------------------
 
