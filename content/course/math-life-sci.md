@@ -52,6 +52,10 @@ Syllabus is [here](/courses/MATH160/syllabus/).
 **Problem Set 7 (Due Friday, October 26):**
 
   - (**Ch.10**) 10.1-10.13
+  
+**Problem Set 8 (Due Friday, November 2):**
+
+  - (**Ch.11**) 11.1-11.11
 
 
 ---------------------------------------------------------------------
