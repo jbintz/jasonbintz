@@ -42,6 +42,10 @@ Syllabus is [here](/courses/MATH341/syllabus/).
 
 [Problem Set 3: Due Friday, September 28](/courses/MATH341/assignments/mathematical-modeling-problem-set-3/)  
 
+**Problem Set 4 (Due Tuesday, October 23):** Predation worksheet.
+
+**Problem Set 5 (Due Tuesday, November 20):** Optimal control problems.
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}
