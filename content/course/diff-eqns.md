@@ -80,7 +80,7 @@ Syllabus is [here](/courses/MATH241/syllabus/).
   - (**4.3**) 2, 4, 6, 7, 8 
   - (**4.4**) 4, 6, 10, 12  
   
-[Problem Set 11: Due Friday, November 16](/courses/MATH241/assignments/differential-equations-problem-set-12/)
+[Problem Set 11: Due Monday, November 19](/courses/MATH241/assignments/differential-equations-problem-set-12/)
 
 ---------------------------------------------------------------------
 
