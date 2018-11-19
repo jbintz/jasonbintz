@@ -82,6 +82,10 @@ Syllabus is [here](/courses/MATH241/syllabus/).
   
 [Problem Set 11: Due Monday, November 19](/courses/MATH241/assignments/differential-equations-problem-set-12/)
 
+[Problem Set 12: Due Wednesday, November 28](/courses/MATH241/assignments/differential-equations-problem-set-14/)
+
+[Problem Set 13: Due Monday, December 3](/courses/MATH241/assignments/differential-equations-problem-set-15/)
+
 ---------------------------------------------------------------------
 
 ## Activities {#act}
