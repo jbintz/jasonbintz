@@ -1,5 +1,5 @@
 ---
-title: 'Differential Equations: Problem Set 15'
+title: 'Differential Equations: Problem Set 13'
 author: ''
 date: '2018-04-19'
 slug: differential-equations-problem-set-15
@@ -11,7 +11,7 @@ tags: []
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1.  This is one of the problems we began working on in class. Consider the predator-prey system:
+1.  Consider the predator-prey system:
 
     \[
       \begin{align*}
