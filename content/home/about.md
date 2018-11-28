@@ -12,6 +12,7 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
+    "Mathematical Biology/Epidemiology",
     "Theoretical Ecology",
     "Community Ecology",
     "Mathematics for the Life Sciences",
